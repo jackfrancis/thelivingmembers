@@ -1,0 +1,4379 @@
+{
+  "description": "Hand-drawn uppercase alphabet, digits, punctuation, outline symbols, and dimensional TLM letter variants.",
+  "color": "#000000",
+  "sizes": {
+    "128": {
+      "capHeight": 128,
+      "canvasHeight": 132,
+      "padding": 2,
+      "baseline": 130
+    },
+    "256": {
+      "capHeight": 256,
+      "canvasHeight": 264,
+      "padding": 4,
+      "baseline": 260
+    },
+    "1024": {
+      "capHeight": 1024,
+      "canvasHeight": 1056,
+      "padding": 16,
+      "baseline": 1040
+    }
+  },
+  "glyphs": {
+    "0": {
+      "character": "0",
+      "label": "0",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/0.png",
+          "width": 121,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 117,
+            "height": 128
+          },
+          "bytes": 2721
+        },
+        "256": {
+          "file": "256/0.png",
+          "width": 241,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 233,
+            "height": 256
+          },
+          "bytes": 5635
+        },
+        "1024": {
+          "file": "1024/0.png",
+          "width": 965,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 933,
+            "height": 1024
+          },
+          "bytes": 28579
+        }
+      }
+    },
+    "1": {
+      "character": "1",
+      "label": "1",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/1.png",
+          "width": 95,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 91,
+            "height": 128
+          },
+          "bytes": 2517
+        },
+        "256": {
+          "file": "256/1.png",
+          "width": 190,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 182,
+            "height": 256
+          },
+          "bytes": 5374
+        },
+        "1024": {
+          "file": "1024/1.png",
+          "width": 758,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 726,
+            "height": 1024
+          },
+          "bytes": 24396
+        }
+      }
+    },
+    "2": {
+      "character": "2",
+      "label": "2",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/2.png",
+          "width": 132,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 128,
+            "height": 128
+          },
+          "bytes": 3071
+        },
+        "256": {
+          "file": "256/2.png",
+          "width": 263,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 255,
+            "height": 256
+          },
+          "bytes": 6348
+        },
+        "1024": {
+          "file": "1024/2.png",
+          "width": 1052,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1020,
+            "height": 1024
+          },
+          "bytes": 31103
+        }
+      }
+    },
+    "3": {
+      "character": "3",
+      "label": "3",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/3.png",
+          "width": 82,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 78,
+            "height": 128
+          },
+          "bytes": 2819
+        },
+        "256": {
+          "file": "256/3.png",
+          "width": 164,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 156,
+            "height": 256
+          },
+          "bytes": 5932
+        },
+        "1024": {
+          "file": "1024/3.png",
+          "width": 657,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 625,
+            "height": 1024
+          },
+          "bytes": 27862
+        }
+      }
+    },
+    "4": {
+      "character": "4",
+      "label": "4",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/4.png",
+          "width": 74,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 70,
+            "height": 128
+          },
+          "bytes": 2484
+        },
+        "256": {
+          "file": "256/4.png",
+          "width": 149,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 141,
+            "height": 256
+          },
+          "bytes": 5250
+        },
+        "1024": {
+          "file": "1024/4.png",
+          "width": 595,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 563,
+            "height": 1024
+          },
+          "bytes": 21533
+        }
+      }
+    },
+    "5": {
+      "character": "5",
+      "label": "5",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/5.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 2855
+        },
+        "256": {
+          "file": "256/5.png",
+          "width": 172,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 164,
+            "height": 256
+          },
+          "bytes": 5968
+        },
+        "1024": {
+          "file": "1024/5.png",
+          "width": 689,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 657,
+            "height": 1024
+          },
+          "bytes": 28296
+        }
+      }
+    },
+    "6": {
+      "character": "6",
+      "label": "6",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/6.png",
+          "width": 132,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 128,
+            "height": 128
+          },
+          "bytes": 3808
+        },
+        "256": {
+          "file": "256/6.png",
+          "width": 263,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 255,
+            "height": 256
+          },
+          "bytes": 8239
+        },
+        "1024": {
+          "file": "1024/6.png",
+          "width": 1052,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1020,
+            "height": 1024
+          },
+          "bytes": 39395
+        }
+      }
+    },
+    "7": {
+      "character": "7",
+      "label": "7",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/7.png",
+          "width": 105,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 101,
+            "height": 128
+          },
+          "bytes": 2609
+        },
+        "256": {
+          "file": "256/7.png",
+          "width": 210,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 202,
+            "height": 256
+          },
+          "bytes": 5354
+        },
+        "1024": {
+          "file": "1024/7.png",
+          "width": 840,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 808,
+            "height": 1024
+          },
+          "bytes": 25154
+        }
+      }
+    },
+    "8": {
+      "character": "8",
+      "label": "8",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/8.png",
+          "width": 87,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 83,
+            "height": 128
+          },
+          "bytes": 2721
+        },
+        "256": {
+          "file": "256/8.png",
+          "width": 174,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 166,
+            "height": 256
+          },
+          "bytes": 5840
+        },
+        "1024": {
+          "file": "1024/8.png",
+          "width": 694,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 662,
+            "height": 1024
+          },
+          "bytes": 27571
+        }
+      }
+    },
+    "9": {
+      "character": "9",
+      "label": "9",
+      "category": "digit",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/9.png",
+          "width": 71,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 67,
+            "height": 128
+          },
+          "bytes": 2380
+        },
+        "256": {
+          "file": "256/9.png",
+          "width": 141,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 133,
+            "height": 256
+          },
+          "bytes": 4795
+        },
+        "1024": {
+          "file": "1024/9.png",
+          "width": 565,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 533,
+            "height": 1024
+          },
+          "bytes": 21545
+        }
+      }
+    },
+    "A": {
+      "character": "A",
+      "label": "A",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/A.png",
+          "width": 88,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 84,
+            "height": 128
+          },
+          "bytes": 2660
+        },
+        "256": {
+          "file": "256/A.png",
+          "width": 176,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 168,
+            "height": 256
+          },
+          "bytes": 5552
+        },
+        "1024": {
+          "file": "1024/A.png",
+          "width": 702,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 670,
+            "height": 1024
+          },
+          "bytes": 33432
+        }
+      }
+    },
+    "B": {
+      "character": "B",
+      "label": "B",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/B.png",
+          "width": 74,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 70,
+            "height": 128
+          },
+          "bytes": 2576
+        },
+        "256": {
+          "file": "256/B.png",
+          "width": 147,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 139,
+            "height": 256
+          },
+          "bytes": 5381
+        },
+        "1024": {
+          "file": "1024/B.png",
+          "width": 589,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 557,
+            "height": 1024
+          },
+          "bytes": 23767
+        }
+      }
+    },
+    "C": {
+      "character": "C",
+      "label": "C",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/C.png",
+          "width": 119,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 115,
+            "height": 128
+          },
+          "bytes": 3386
+        },
+        "256": {
+          "file": "256/C.png",
+          "width": 238,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 230,
+            "height": 256
+          },
+          "bytes": 7061
+        },
+        "1024": {
+          "file": "1024/C.png",
+          "width": 952,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 920,
+            "height": 1024
+          },
+          "bytes": 34727
+        }
+      }
+    },
+    "D": {
+      "character": "D",
+      "label": "D",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/D.png",
+          "width": 112,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 108,
+            "height": 128
+          },
+          "bytes": 2887
+        },
+        "256": {
+          "file": "256/D.png",
+          "width": 224,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 216,
+            "height": 256
+          },
+          "bytes": 6183
+        },
+        "1024": {
+          "file": "1024/D.png",
+          "width": 894,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 862,
+            "height": 1024
+          },
+          "bytes": 26427
+        }
+      }
+    },
+    "E": {
+      "character": "E",
+      "label": "E",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/E.png",
+          "width": 95,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 91,
+            "height": 128
+          },
+          "bytes": 2796
+        },
+        "256": {
+          "file": "256/E.png",
+          "width": 190,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 182,
+            "height": 256
+          },
+          "bytes": 5494
+        },
+        "1024": {
+          "file": "1024/E.png",
+          "width": 759,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 727,
+            "height": 1024
+          },
+          "bytes": 22324
+        }
+      }
+    },
+    "F": {
+      "character": "F",
+      "label": "F",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/F.png",
+          "width": 88,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 84,
+            "height": 128
+          },
+          "bytes": 2667
+        },
+        "256": {
+          "file": "256/F.png",
+          "width": 176,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 168,
+            "height": 256
+          },
+          "bytes": 5488
+        },
+        "1024": {
+          "file": "1024/F.png",
+          "width": 704,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 672,
+            "height": 1024
+          },
+          "bytes": 22827
+        }
+      }
+    },
+    "G": {
+      "character": "G",
+      "label": "G",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/G.png",
+          "width": 99,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 95,
+            "height": 128
+          },
+          "bytes": 3080
+        },
+        "256": {
+          "file": "256/G.png",
+          "width": 198,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 190,
+            "height": 256
+          },
+          "bytes": 6640
+        },
+        "1024": {
+          "file": "1024/G.png",
+          "width": 790,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 758,
+            "height": 1024
+          },
+          "bytes": 31105
+        }
+      }
+    },
+    "H": {
+      "character": "H",
+      "label": "H",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/H.png",
+          "width": 90,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 86,
+            "height": 128
+          },
+          "bytes": 2959
+        },
+        "256": {
+          "file": "256/H.png",
+          "width": 180,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 172,
+            "height": 256
+          },
+          "bytes": 6123
+        },
+        "1024": {
+          "file": "1024/H.png",
+          "width": 718,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 686,
+            "height": 1024
+          },
+          "bytes": 24060
+        }
+      }
+    },
+    "I": {
+      "character": "I",
+      "label": "I",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/I.png",
+          "width": 55,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 51,
+            "height": 128
+          },
+          "bytes": 1818
+        },
+        "256": {
+          "file": "256/I.png",
+          "width": 110,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 102,
+            "height": 256
+          },
+          "bytes": 3632
+        },
+        "1024": {
+          "file": "1024/I.png",
+          "width": 440,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 408,
+            "height": 1024
+          },
+          "bytes": 14688
+        }
+      }
+    },
+    "J": {
+      "character": "J",
+      "label": "J",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/J.png",
+          "width": 103,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 99,
+            "height": 128
+          },
+          "bytes": 2670
+        },
+        "256": {
+          "file": "256/J.png",
+          "width": 207,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 199,
+            "height": 256
+          },
+          "bytes": 5480
+        },
+        "1024": {
+          "file": "1024/J.png",
+          "width": 827,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 795,
+            "height": 1024
+          },
+          "bytes": 25377
+        }
+      }
+    },
+    "K": {
+      "character": "K",
+      "label": "K",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/K.png",
+          "width": 81,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 77,
+            "height": 128
+          },
+          "bytes": 2774
+        },
+        "256": {
+          "file": "256/K.png",
+          "width": 161,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 153,
+            "height": 256
+          },
+          "bytes": 5652
+        },
+        "1024": {
+          "file": "1024/K.png",
+          "width": 644,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 612,
+            "height": 1024
+          },
+          "bytes": 26074
+        }
+      }
+    },
+    "L": {
+      "character": "L",
+      "label": "L",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/L.png",
+          "width": 106,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 102,
+            "height": 128
+          },
+          "bytes": 2336
+        },
+        "256": {
+          "file": "256/L.png",
+          "width": 211,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 203,
+            "height": 256
+          },
+          "bytes": 4886
+        },
+        "1024": {
+          "file": "1024/L.png",
+          "width": 845,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 813,
+            "height": 1024
+          },
+          "bytes": 20432
+        }
+      }
+    },
+    "M": {
+      "character": "M",
+      "label": "M",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/M.png",
+          "width": 96,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 92,
+            "height": 128
+          },
+          "bytes": 3246
+        },
+        "256": {
+          "file": "256/M.png",
+          "width": 192,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 184,
+            "height": 256
+          },
+          "bytes": 7064
+        },
+        "1024": {
+          "file": "1024/M.png",
+          "width": 766,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 734,
+            "height": 1024
+          },
+          "bytes": 29854
+        }
+      }
+    },
+    "N": {
+      "character": "N",
+      "label": "N",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/N.png",
+          "width": 105,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 101,
+            "height": 128
+          },
+          "bytes": 3266
+        },
+        "256": {
+          "file": "256/N.png",
+          "width": 211,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 203,
+            "height": 256
+          },
+          "bytes": 7071
+        },
+        "1024": {
+          "file": "1024/N.png",
+          "width": 842,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 810,
+            "height": 1024
+          },
+          "bytes": 30804
+        }
+      }
+    },
+    "O": {
+      "character": "O",
+      "label": "O",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/O.png",
+          "width": 109,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 105,
+            "height": 128
+          },
+          "bytes": 2548
+        },
+        "256": {
+          "file": "256/O.png",
+          "width": 218,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 210,
+            "height": 256
+          },
+          "bytes": 5365
+        },
+        "1024": {
+          "file": "1024/O.png",
+          "width": 873,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 841,
+            "height": 1024
+          },
+          "bytes": 25729
+        }
+      }
+    },
+    "P": {
+      "character": "P",
+      "label": "P",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/P.png",
+          "width": 88,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 84,
+            "height": 128
+          },
+          "bytes": 2414
+        },
+        "256": {
+          "file": "256/P.png",
+          "width": 176,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 168,
+            "height": 256
+          },
+          "bytes": 5138
+        },
+        "1024": {
+          "file": "1024/P.png",
+          "width": 702,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 670,
+            "height": 1024
+          },
+          "bytes": 22095
+        }
+      }
+    },
+    "Q": {
+      "character": "Q",
+      "label": "Q",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/Q.png",
+          "width": 119,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 115,
+            "height": 128
+          },
+          "bytes": 3042
+        },
+        "256": {
+          "file": "256/Q.png",
+          "width": 237,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 229,
+            "height": 256
+          },
+          "bytes": 6315
+        },
+        "1024": {
+          "file": "1024/Q.png",
+          "width": 948,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 916,
+            "height": 1024
+          },
+          "bytes": 30944
+        }
+      }
+    },
+    "R": {
+      "character": "R",
+      "label": "R",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/R.png",
+          "width": 98,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 94,
+            "height": 128
+          },
+          "bytes": 3114
+        },
+        "256": {
+          "file": "256/R.png",
+          "width": 197,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 189,
+            "height": 256
+          },
+          "bytes": 6706
+        },
+        "1024": {
+          "file": "1024/R.png",
+          "width": 786,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 754,
+            "height": 1024
+          },
+          "bytes": 29474
+        }
+      }
+    },
+    "S": {
+      "character": "S",
+      "label": "S",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/S.png",
+          "width": 100,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 96,
+            "height": 128
+          },
+          "bytes": 3085
+        },
+        "256": {
+          "file": "256/S.png",
+          "width": 200,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 192,
+            "height": 256
+          },
+          "bytes": 6414
+        },
+        "1024": {
+          "file": "1024/S.png",
+          "width": 799,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 767,
+            "height": 1024
+          },
+          "bytes": 30371
+        }
+      }
+    },
+    "T": {
+      "character": "T",
+      "label": "T",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/T.png",
+          "width": 112,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 108,
+            "height": 128
+          },
+          "bytes": 2548
+        },
+        "256": {
+          "file": "256/T.png",
+          "width": 225,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 217,
+            "height": 256
+          },
+          "bytes": 5516
+        },
+        "1024": {
+          "file": "1024/T.png",
+          "width": 898,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 866,
+            "height": 1024
+          },
+          "bytes": 23284
+        }
+      }
+    },
+    "U": {
+      "character": "U",
+      "label": "U",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/U.png",
+          "width": 105,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 101,
+            "height": 128
+          },
+          "bytes": 2926
+        },
+        "256": {
+          "file": "256/U.png",
+          "width": 209,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 201,
+            "height": 256
+          },
+          "bytes": 6070
+        },
+        "1024": {
+          "file": "1024/U.png",
+          "width": 837,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 805,
+            "height": 1024
+          },
+          "bytes": 27445
+        }
+      }
+    },
+    "V": {
+      "character": "V",
+      "label": "V",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/V.png",
+          "width": 115,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 111,
+            "height": 128
+          },
+          "bytes": 3056
+        },
+        "256": {
+          "file": "256/V.png",
+          "width": 230,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 222,
+            "height": 256
+          },
+          "bytes": 6360
+        },
+        "1024": {
+          "file": "1024/V.png",
+          "width": 920,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 888,
+            "height": 1024
+          },
+          "bytes": 29514
+        }
+      }
+    },
+    "W": {
+      "character": "W",
+      "label": "W",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/W.png",
+          "width": 147,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 143,
+            "height": 128
+          },
+          "bytes": 3676
+        },
+        "256": {
+          "file": "256/W.png",
+          "width": 295,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 287,
+            "height": 256
+          },
+          "bytes": 8037
+        },
+        "1024": {
+          "file": "1024/W.png",
+          "width": 1178,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1146,
+            "height": 1024
+          },
+          "bytes": 25307
+        }
+      }
+    },
+    "X": {
+      "character": "X",
+      "label": "X",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/X.png",
+          "width": 117,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 113,
+            "height": 128
+          },
+          "bytes": 3187
+        },
+        "256": {
+          "file": "256/X.png",
+          "width": 234,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 226,
+            "height": 256
+          },
+          "bytes": 6651
+        },
+        "1024": {
+          "file": "1024/X.png",
+          "width": 936,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 904,
+            "height": 1024
+          },
+          "bytes": 32801
+        }
+      }
+    },
+    "Y": {
+      "character": "Y",
+      "label": "Y",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/Y.png",
+          "width": 120,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 116,
+            "height": 128
+          },
+          "bytes": 2881
+        },
+        "256": {
+          "file": "256/Y.png",
+          "width": 241,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 233,
+            "height": 256
+          },
+          "bytes": 6404
+        },
+        "1024": {
+          "file": "1024/Y.png",
+          "width": 962,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 930,
+            "height": 1024
+          },
+          "bytes": 31277
+        }
+      }
+    },
+    "Z": {
+      "character": "Z",
+      "label": "Z",
+      "category": "letter",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/Z.png",
+          "width": 125,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 121,
+            "height": 128
+          },
+          "bytes": 3476
+        },
+        "256": {
+          "file": "256/Z.png",
+          "width": 250,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 242,
+            "height": 256
+          },
+          "bytes": 7198
+        },
+        "1024": {
+          "file": "1024/Z.png",
+          "width": 1001,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 969,
+            "height": 1024
+          },
+          "bytes": 34188
+        }
+      }
+    },
+    "exclamation": {
+      "character": "!",
+      "label": "exclamation",
+      "category": "punctuation",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/exclamation.png",
+          "width": 38,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 34,
+            "height": 128
+          },
+          "bytes": 1766
+        },
+        "256": {
+          "file": "256/exclamation.png",
+          "width": 75,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 67,
+            "height": 256
+          },
+          "bytes": 3553
+        },
+        "1024": {
+          "file": "1024/exclamation.png",
+          "width": 301,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 269,
+            "height": 1024
+          },
+          "bytes": 14873
+        }
+      }
+    },
+    "period": {
+      "character": ".",
+      "label": "period",
+      "category": "punctuation",
+      "style": "filled",
+      "variants": {
+        "128": {
+          "file": "128/period.png",
+          "width": 30,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 110,
+            "width": 26,
+            "height": 20
+          },
+          "bytes": 514
+        },
+        "256": {
+          "file": "256/period.png",
+          "width": 60,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 220,
+            "width": 52,
+            "height": 40
+          },
+          "bytes": 1100
+        },
+        "1024": {
+          "file": "1024/period.png",
+          "width": 238,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 880,
+            "width": 206,
+            "height": 160
+          },
+          "bytes": 4768
+        }
+      }
+    },
+    "star-1": {
+      "character": null,
+      "label": "star-1",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/star-1.png",
+          "width": 140,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 136,
+            "height": 128
+          },
+          "bytes": 5385
+        },
+        "256": {
+          "file": "256/star-1.png",
+          "width": 280,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 272,
+            "height": 256
+          },
+          "bytes": 14024
+        },
+        "1024": {
+          "file": "1024/star-1.png",
+          "width": 1120,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1088,
+            "height": 1024
+          },
+          "bytes": 47734
+        }
+      }
+    },
+    "star-2": {
+      "character": null,
+      "label": "star-2",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/star-2.png",
+          "width": 135,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 131,
+            "height": 128
+          },
+          "bytes": 5309
+        },
+        "256": {
+          "file": "256/star-2.png",
+          "width": 271,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 263,
+            "height": 256
+          },
+          "bytes": 13611
+        },
+        "1024": {
+          "file": "1024/star-2.png",
+          "width": 1082,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1050,
+            "height": 1024
+          },
+          "bytes": 68706
+        }
+      }
+    },
+    "star-3": {
+      "character": null,
+      "label": "star-3",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/star-3.png",
+          "width": 140,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 136,
+            "height": 128
+          },
+          "bytes": 5611
+        },
+        "256": {
+          "file": "256/star-3.png",
+          "width": 280,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 272,
+            "height": 256
+          },
+          "bytes": 14487
+        },
+        "1024": {
+          "file": "1024/star-3.png",
+          "width": 1120,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1088,
+            "height": 1024
+          },
+          "bytes": 74781
+        }
+      }
+    },
+    "star-4": {
+      "character": null,
+      "label": "star-4",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/star-4.png",
+          "width": 148,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 144,
+            "height": 128
+          },
+          "bytes": 6299
+        },
+        "256": {
+          "file": "256/star-4.png",
+          "width": 296,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 288,
+            "height": 256
+          },
+          "bytes": 16588
+        },
+        "1024": {
+          "file": "1024/star-4.png",
+          "width": 1185,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1153,
+            "height": 1024
+          },
+          "bytes": 64998
+        }
+      }
+    },
+    "sun": {
+      "character": null,
+      "label": "sun",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/sun.png",
+          "width": 132,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 128,
+            "height": 128
+          },
+          "bytes": 4652
+        },
+        "256": {
+          "file": "256/sun.png",
+          "width": 263,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 255,
+            "height": 256
+          },
+          "bytes": 11753
+        },
+        "1024": {
+          "file": "1024/sun.png",
+          "width": 1052,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1020,
+            "height": 1024
+          },
+          "bytes": 61724
+        }
+      }
+    },
+    "cloud": {
+      "character": null,
+      "label": "cloud",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/cloud.png",
+          "width": 205,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 201,
+            "height": 128
+          },
+          "bytes": 5095
+        },
+        "256": {
+          "file": "256/cloud.png",
+          "width": 410,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 402,
+            "height": 256
+          },
+          "bytes": 13129
+        },
+        "1024": {
+          "file": "1024/cloud.png",
+          "width": 1638,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1606,
+            "height": 1024
+          },
+          "bytes": 49462
+        }
+      }
+    },
+    "flower": {
+      "character": null,
+      "label": "flower",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/flower.png",
+          "width": 117,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 113,
+            "height": 128
+          },
+          "bytes": 5329
+        },
+        "256": {
+          "file": "256/flower.png",
+          "width": 234,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 226,
+            "height": 256
+          },
+          "bytes": 13251
+        },
+        "1024": {
+          "file": "1024/flower.png",
+          "width": 934,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 902,
+            "height": 1024
+          },
+          "bytes": 71654
+        }
+      }
+    },
+    "heart": {
+      "character": null,
+      "label": "heart",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/heart.png",
+          "width": 110,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 106,
+            "height": 128
+          },
+          "bytes": 3458
+        },
+        "256": {
+          "file": "256/heart.png",
+          "width": 221,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 213,
+            "height": 256
+          },
+          "bytes": 8717
+        },
+        "1024": {
+          "file": "1024/heart.png",
+          "width": 883,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 851,
+            "height": 1024
+          },
+          "bytes": 50161
+        }
+      }
+    },
+    "cookie": {
+      "character": null,
+      "label": "cookie",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/cookie.png",
+          "width": 127,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 123,
+            "height": 128
+          },
+          "bytes": 6897
+        },
+        "256": {
+          "file": "256/cookie.png",
+          "width": 254,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 246,
+            "height": 256
+          },
+          "bytes": 18486
+        },
+        "1024": {
+          "file": "1024/cookie.png",
+          "width": 1014,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 982,
+            "height": 1024
+          },
+          "bytes": 70073
+        }
+      }
+    },
+    "ice-cream": {
+      "character": null,
+      "label": "ice-cream",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/ice-cream.png",
+          "width": 81,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 77,
+            "height": 128
+          },
+          "bytes": 5971
+        },
+        "256": {
+          "file": "256/ice-cream.png",
+          "width": 162,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 154,
+            "height": 256
+          },
+          "bytes": 15562
+        },
+        "1024": {
+          "file": "1024/ice-cream.png",
+          "width": 648,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 616,
+            "height": 1024
+          },
+          "bytes": 97011
+        }
+      }
+    },
+    "campfire": {
+      "character": null,
+      "label": "campfire",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/campfire.png",
+          "width": 100,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 96,
+            "height": 128
+          },
+          "bytes": 6839
+        },
+        "256": {
+          "file": "256/campfire.png",
+          "width": 201,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 193,
+            "height": 256
+          },
+          "bytes": 16170
+        },
+        "1024": {
+          "file": "1024/campfire.png",
+          "width": 803,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 771,
+            "height": 1024
+          },
+          "bytes": 94816
+        }
+      }
+    },
+    "eighth-note": {
+      "character": null,
+      "label": "eighth-note",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/eighth-note.png",
+          "width": 93,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 89,
+            "height": 128
+          },
+          "bytes": 3599
+        },
+        "256": {
+          "file": "256/eighth-note.png",
+          "width": 185,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 177,
+            "height": 256
+          },
+          "bytes": 10057
+        },
+        "1024": {
+          "file": "1024/eighth-note.png",
+          "width": 740,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 708,
+            "height": 1024
+          },
+          "bytes": 66234
+        }
+      }
+    },
+    "beamed-notes": {
+      "character": null,
+      "label": "beamed-notes",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/beamed-notes.png",
+          "width": 166,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 162,
+            "height": 128
+          },
+          "bytes": 6171
+        },
+        "256": {
+          "file": "256/beamed-notes.png",
+          "width": 332,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 324,
+            "height": 256
+          },
+          "bytes": 16559
+        },
+        "1024": {
+          "file": "1024/beamed-notes.png",
+          "width": 1328,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1296,
+            "height": 1024
+          },
+          "bytes": 66030
+        }
+      }
+    },
+    "quarter-note": {
+      "character": null,
+      "label": "quarter-note",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/quarter-note.png",
+          "width": 58,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 54,
+            "height": 128
+          },
+          "bytes": 2980
+        },
+        "256": {
+          "file": "256/quarter-note.png",
+          "width": 115,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 107,
+            "height": 256
+          },
+          "bytes": 8323
+        },
+        "1024": {
+          "file": "1024/quarter-note.png",
+          "width": 460,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 428,
+            "height": 1024
+          },
+          "bytes": 54080
+        }
+      }
+    },
+    "guitar": {
+      "character": null,
+      "label": "guitar",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/guitar.png",
+          "width": 44,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 40,
+            "height": 128
+          },
+          "bytes": 3671
+        },
+        "256": {
+          "file": "256/guitar.png",
+          "width": 88,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 80,
+            "height": 256
+          },
+          "bytes": 9473
+        },
+        "1024": {
+          "file": "1024/guitar.png",
+          "width": 351,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 319,
+            "height": 1024
+          },
+          "bytes": 48763
+        }
+      }
+    },
+    "tree": {
+      "character": null,
+      "label": "tree",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/tree.png",
+          "width": 112,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 108,
+            "height": 128
+          },
+          "bytes": 8863
+        },
+        "256": {
+          "file": "256/tree.png",
+          "width": 224,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 216,
+            "height": 256
+          },
+          "bytes": 23912
+        },
+        "1024": {
+          "file": "1024/tree.png",
+          "width": 896,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 864,
+            "height": 1024
+          },
+          "bytes": 149379
+        }
+      }
+    },
+    "T-TLM-filled": {
+      "character": "T",
+      "label": "T-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/T-TLM-filled.png",
+          "width": 100,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 96,
+            "height": 128
+          },
+          "bytes": 4499
+        },
+        "256": {
+          "file": "256/T-TLM-filled.png",
+          "width": 201,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 193,
+            "height": 256
+          },
+          "bytes": 11565
+        },
+        "1024": {
+          "file": "1024/T-TLM-filled.png",
+          "width": 803,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 771,
+            "height": 1024
+          },
+          "bytes": 74692
+        }
+      },
+      "family": "TLM",
+      "drawing": "T-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 1
+    },
+    "T-TLM-outline": {
+      "character": "T",
+      "label": "T-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/T-TLM-outline.png",
+          "width": 101,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 97,
+            "height": 128
+          },
+          "bytes": 4681
+        },
+        "256": {
+          "file": "256/T-TLM-outline.png",
+          "width": 201,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 193,
+            "height": 256
+          },
+          "bytes": 11993
+        },
+        "1024": {
+          "file": "1024/T-TLM-outline.png",
+          "width": 804,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 772,
+            "height": 1024
+          },
+          "bytes": 66652
+        }
+      },
+      "family": "TLM",
+      "drawing": "T-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 1
+    },
+    "H-TLM-filled": {
+      "character": "H",
+      "label": "H-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/H-TLM-filled.png",
+          "width": 80,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 76,
+            "height": 128
+          },
+          "bytes": 5086
+        },
+        "256": {
+          "file": "256/H-TLM-filled.png",
+          "width": 159,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 151,
+            "height": 256
+          },
+          "bytes": 12909
+        },
+        "1024": {
+          "file": "1024/H-TLM-filled.png",
+          "width": 637,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 605,
+            "height": 1024
+          },
+          "bytes": 72918
+        }
+      },
+      "family": "TLM",
+      "drawing": "H-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 2
+    },
+    "H-TLM-outline": {
+      "character": "H",
+      "label": "H-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/H-TLM-outline.png",
+          "width": 80,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 76,
+            "height": 128
+          },
+          "bytes": 6241
+        },
+        "256": {
+          "file": "256/H-TLM-outline.png",
+          "width": 159,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 151,
+            "height": 256
+          },
+          "bytes": 16488
+        },
+        "1024": {
+          "file": "1024/H-TLM-outline.png",
+          "width": 637,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 605,
+            "height": 1024
+          },
+          "bytes": 98283
+        }
+      },
+      "family": "TLM",
+      "drawing": "H-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 2
+    },
+    "E-TLM-1-filled": {
+      "character": "E",
+      "label": "E-TLM-1-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-1-filled.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 5077
+        },
+        "256": {
+          "file": "256/E-TLM-1-filled.png",
+          "width": 171,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 163,
+            "height": 256
+          },
+          "bytes": 12463
+        },
+        "1024": {
+          "file": "1024/E-TLM-1-filled.png",
+          "width": 685,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 653,
+            "height": 1024
+          },
+          "bytes": 56702
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 3
+    },
+    "E-TLM-1-outline": {
+      "character": "E",
+      "label": "E-TLM-1-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-1-outline.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 5822
+        },
+        "256": {
+          "file": "256/E-TLM-1-outline.png",
+          "width": 171,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 163,
+            "height": 256
+          },
+          "bytes": 14637
+        },
+        "1024": {
+          "file": "1024/E-TLM-1-outline.png",
+          "width": 685,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 653,
+            "height": 1024
+          },
+          "bytes": 69404
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 3
+    },
+    "L-TLM-filled": {
+      "character": "L",
+      "label": "L-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/L-TLM-filled.png",
+          "width": 109,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 105,
+            "height": 128
+          },
+          "bytes": 4243
+        },
+        "256": {
+          "file": "256/L-TLM-filled.png",
+          "width": 218,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 210,
+            "height": 256
+          },
+          "bytes": 10825
+        },
+        "1024": {
+          "file": "1024/L-TLM-filled.png",
+          "width": 870,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 838,
+            "height": 1024
+          },
+          "bytes": 52106
+        }
+      },
+      "family": "TLM",
+      "drawing": "L-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 4
+    },
+    "L-TLM-outline": {
+      "character": "L",
+      "label": "L-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/L-TLM-outline.png",
+          "width": 109,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 105,
+            "height": 128
+          },
+          "bytes": 5022
+        },
+        "256": {
+          "file": "256/L-TLM-outline.png",
+          "width": 218,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 210,
+            "height": 256
+          },
+          "bytes": 12387
+        },
+        "1024": {
+          "file": "1024/L-TLM-outline.png",
+          "width": 871,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 839,
+            "height": 1024
+          },
+          "bytes": 59474
+        }
+      },
+      "family": "TLM",
+      "drawing": "L-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 4
+    },
+    "I-TLM-1-filled": {
+      "character": "I",
+      "label": "I-TLM-1-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/I-TLM-1-filled.png",
+          "width": 52,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 48,
+            "height": 128
+          },
+          "bytes": 3658
+        },
+        "256": {
+          "file": "256/I-TLM-1-filled.png",
+          "width": 104,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 96,
+            "height": 256
+          },
+          "bytes": 9190
+        },
+        "1024": {
+          "file": "1024/I-TLM-1-filled.png",
+          "width": 415,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 383,
+            "height": 1024
+          },
+          "bytes": 55014
+        }
+      },
+      "family": "TLM",
+      "drawing": "I-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 5
+    },
+    "I-TLM-1-outline": {
+      "character": "I",
+      "label": "I-TLM-1-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/I-TLM-1-outline.png",
+          "width": 52,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 48,
+            "height": 128
+          },
+          "bytes": 4060
+        },
+        "256": {
+          "file": "256/I-TLM-1-outline.png",
+          "width": 103,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 95,
+            "height": 256
+          },
+          "bytes": 9943
+        },
+        "1024": {
+          "file": "1024/I-TLM-1-outline.png",
+          "width": 413,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 381,
+            "height": 1024
+          },
+          "bytes": 50309
+        }
+      },
+      "family": "TLM",
+      "drawing": "I-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 5
+    },
+    "V-TLM-filled": {
+      "character": "V",
+      "label": "V-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/V-TLM-filled.png",
+          "width": 134,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 130,
+            "height": 128
+          },
+          "bytes": 6668
+        },
+        "256": {
+          "file": "256/V-TLM-filled.png",
+          "width": 267,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 259,
+            "height": 256
+          },
+          "bytes": 17645
+        },
+        "1024": {
+          "file": "1024/V-TLM-filled.png",
+          "width": 1069,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1037,
+            "height": 1024
+          },
+          "bytes": 109162
+        }
+      },
+      "family": "TLM",
+      "drawing": "V-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 6
+    },
+    "V-TLM-outline": {
+      "character": "V",
+      "label": "V-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/V-TLM-outline.png",
+          "width": 130,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 126,
+            "height": 128
+          },
+          "bytes": 7228
+        },
+        "256": {
+          "file": "256/V-TLM-outline.png",
+          "width": 259,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 251,
+            "height": 256
+          },
+          "bytes": 19421
+        },
+        "1024": {
+          "file": "1024/V-TLM-outline.png",
+          "width": 1037,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1005,
+            "height": 1024
+          },
+          "bytes": 116509
+        }
+      },
+      "family": "TLM",
+      "drawing": "V-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 6
+    },
+    "I-TLM-2-filled": {
+      "character": "I",
+      "label": "I-TLM-2-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/I-TLM-2-filled.png",
+          "width": 55,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 51,
+            "height": 128
+          },
+          "bytes": 3763
+        },
+        "256": {
+          "file": "256/I-TLM-2-filled.png",
+          "width": 110,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 102,
+            "height": 256
+          },
+          "bytes": 9366
+        },
+        "1024": {
+          "file": "1024/I-TLM-2-filled.png",
+          "width": 440,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 408,
+            "height": 1024
+          },
+          "bytes": 56135
+        }
+      },
+      "family": "TLM",
+      "drawing": "I-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 7
+    },
+    "I-TLM-2-outline": {
+      "character": "I",
+      "label": "I-TLM-2-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/I-TLM-2-outline.png",
+          "width": 54,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 50,
+            "height": 128
+          },
+          "bytes": 4226
+        },
+        "256": {
+          "file": "256/I-TLM-2-outline.png",
+          "width": 109,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 101,
+            "height": 256
+          },
+          "bytes": 10585
+        },
+        "1024": {
+          "file": "1024/I-TLM-2-outline.png",
+          "width": 435,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 403,
+            "height": 1024
+          },
+          "bytes": 58117
+        }
+      },
+      "family": "TLM",
+      "drawing": "I-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 7
+    },
+    "N-TLM-filled": {
+      "character": "N",
+      "label": "N-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/N-TLM-filled.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 5971
+        },
+        "256": {
+          "file": "256/N-TLM-filled.png",
+          "width": 171,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 163,
+            "height": 256
+          },
+          "bytes": 15204
+        },
+        "1024": {
+          "file": "1024/N-TLM-filled.png",
+          "width": 684,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 652,
+            "height": 1024
+          },
+          "bytes": 87709
+        }
+      },
+      "family": "TLM",
+      "drawing": "N-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 8
+    },
+    "N-TLM-outline": {
+      "character": "N",
+      "label": "N-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/N-TLM-outline.png",
+          "width": 87,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 83,
+            "height": 128
+          },
+          "bytes": 7376
+        },
+        "256": {
+          "file": "256/N-TLM-outline.png",
+          "width": 173,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 165,
+            "height": 256
+          },
+          "bytes": 19448
+        },
+        "1024": {
+          "file": "1024/N-TLM-outline.png",
+          "width": 693,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 661,
+            "height": 1024
+          },
+          "bytes": 111587
+        }
+      },
+      "family": "TLM",
+      "drawing": "N-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 8
+    },
+    "G-TLM-filled": {
+      "character": "G",
+      "label": "G-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/G-TLM-filled.png",
+          "width": 124,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 120,
+            "height": 128
+          },
+          "bytes": 6174
+        },
+        "256": {
+          "file": "256/G-TLM-filled.png",
+          "width": 248,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 240,
+            "height": 256
+          },
+          "bytes": 15687
+        },
+        "1024": {
+          "file": "1024/G-TLM-filled.png",
+          "width": 990,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 958,
+            "height": 1024
+          },
+          "bytes": 89290
+        }
+      },
+      "family": "TLM",
+      "drawing": "G-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 9
+    },
+    "G-TLM-outline": {
+      "character": "G",
+      "label": "G-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/G-TLM-outline.png",
+          "width": 125,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 121,
+            "height": 128
+          },
+          "bytes": 7463
+        },
+        "256": {
+          "file": "256/G-TLM-outline.png",
+          "width": 250,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 242,
+            "height": 256
+          },
+          "bytes": 18947
+        },
+        "1024": {
+          "file": "1024/G-TLM-outline.png",
+          "width": 999,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 967,
+            "height": 1024
+          },
+          "bytes": 110153
+        }
+      },
+      "family": "TLM",
+      "drawing": "G-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 9
+    },
+    "M-TLM-1-filled": {
+      "character": "M",
+      "label": "M-TLM-1-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/M-TLM-1-filled.png",
+          "width": 129,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 125,
+            "height": 128
+          },
+          "bytes": 6950
+        },
+        "256": {
+          "file": "256/M-TLM-1-filled.png",
+          "width": 258,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 250,
+            "height": 256
+          },
+          "bytes": 16855
+        },
+        "1024": {
+          "file": "1024/M-TLM-1-filled.png",
+          "width": 1031,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 999,
+            "height": 1024
+          },
+          "bytes": 86940
+        }
+      },
+      "family": "TLM",
+      "drawing": "M-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 10
+    },
+    "M-TLM-1-outline": {
+      "character": "M",
+      "label": "M-TLM-1-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/M-TLM-1-outline.png",
+          "width": 124,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 120,
+            "height": 128
+          },
+          "bytes": 8348
+        },
+        "256": {
+          "file": "256/M-TLM-1-outline.png",
+          "width": 248,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 240,
+            "height": 256
+          },
+          "bytes": 20602
+        },
+        "1024": {
+          "file": "1024/M-TLM-1-outline.png",
+          "width": 991,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 959,
+            "height": 1024
+          },
+          "bytes": 113231
+        }
+      },
+      "family": "TLM",
+      "drawing": "M-TLM-1",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 10
+    },
+    "E-TLM-2-filled": {
+      "character": "E",
+      "label": "E-TLM-2-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-2-filled.png",
+          "width": 105,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 101,
+            "height": 128
+          },
+          "bytes": 6056
+        },
+        "256": {
+          "file": "256/E-TLM-2-filled.png",
+          "width": 209,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 201,
+            "height": 256
+          },
+          "bytes": 15047
+        },
+        "1024": {
+          "file": "1024/E-TLM-2-filled.png",
+          "width": 836,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 804,
+            "height": 1024
+          },
+          "bytes": 79286
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 11
+    },
+    "E-TLM-2-outline": {
+      "character": "E",
+      "label": "E-TLM-2-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-2-outline.png",
+          "width": 107,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 103,
+            "height": 128
+          },
+          "bytes": 7047
+        },
+        "256": {
+          "file": "256/E-TLM-2-outline.png",
+          "width": 214,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 206,
+            "height": 256
+          },
+          "bytes": 17809
+        },
+        "1024": {
+          "file": "1024/E-TLM-2-outline.png",
+          "width": 854,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 822,
+            "height": 1024
+          },
+          "bytes": 92074
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 11
+    },
+    "M-TLM-2-filled": {
+      "character": "M",
+      "label": "M-TLM-2-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/M-TLM-2-filled.png",
+          "width": 112,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 108,
+            "height": 128
+          },
+          "bytes": 6598
+        },
+        "256": {
+          "file": "256/M-TLM-2-filled.png",
+          "width": 225,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 217,
+            "height": 256
+          },
+          "bytes": 16717
+        },
+        "1024": {
+          "file": "1024/M-TLM-2-filled.png",
+          "width": 899,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 867,
+            "height": 1024
+          },
+          "bytes": 94143
+        }
+      },
+      "family": "TLM",
+      "drawing": "M-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 12
+    },
+    "M-TLM-2-outline": {
+      "character": "M",
+      "label": "M-TLM-2-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/M-TLM-2-outline.png",
+          "width": 112,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 108,
+            "height": 128
+          },
+          "bytes": 7773
+        },
+        "256": {
+          "file": "256/M-TLM-2-outline.png",
+          "width": 225,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 217,
+            "height": 256
+          },
+          "bytes": 19842
+        },
+        "1024": {
+          "file": "1024/M-TLM-2-outline.png",
+          "width": 899,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 867,
+            "height": 1024
+          },
+          "bytes": 112847
+        }
+      },
+      "family": "TLM",
+      "drawing": "M-TLM-2",
+      "occurrence": 2,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 12
+    },
+    "B-TLM-filled": {
+      "character": "B",
+      "label": "B-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/B-TLM-filled.png",
+          "width": 73,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 69,
+            "height": 128
+          },
+          "bytes": 4098
+        },
+        "256": {
+          "file": "256/B-TLM-filled.png",
+          "width": 147,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 139,
+            "height": 256
+          },
+          "bytes": 10123
+        },
+        "1024": {
+          "file": "1024/B-TLM-filled.png",
+          "width": 586,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 554,
+            "height": 1024
+          },
+          "bytes": 56640
+        }
+      },
+      "family": "TLM",
+      "drawing": "B-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 13
+    },
+    "B-TLM-outline": {
+      "character": "B",
+      "label": "B-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/B-TLM-outline.png",
+          "width": 74,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 70,
+            "height": 128
+          },
+          "bytes": 5011
+        },
+        "256": {
+          "file": "256/B-TLM-outline.png",
+          "width": 149,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 141,
+            "height": 256
+          },
+          "bytes": 12516
+        },
+        "1024": {
+          "file": "1024/B-TLM-outline.png",
+          "width": 595,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 563,
+            "height": 1024
+          },
+          "bytes": 71968
+        }
+      },
+      "family": "TLM",
+      "drawing": "B-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 13
+    },
+    "E-TLM-3-filled": {
+      "character": "E",
+      "label": "E-TLM-3-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-3-filled.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 4887
+        },
+        "256": {
+          "file": "256/E-TLM-3-filled.png",
+          "width": 171,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 163,
+            "height": 256
+          },
+          "bytes": 12113
+        },
+        "1024": {
+          "file": "1024/E-TLM-3-filled.png",
+          "width": 684,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 652,
+            "height": 1024
+          },
+          "bytes": 60997
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-3",
+      "occurrence": 3,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 14
+    },
+    "E-TLM-3-outline": {
+      "character": "E",
+      "label": "E-TLM-3-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/E-TLM-3-outline.png",
+          "width": 86,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 82,
+            "height": 128
+          },
+          "bytes": 5777
+        },
+        "256": {
+          "file": "256/E-TLM-3-outline.png",
+          "width": 172,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 164,
+            "height": 256
+          },
+          "bytes": 14885
+        },
+        "1024": {
+          "file": "1024/E-TLM-3-outline.png",
+          "width": 686,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 654,
+            "height": 1024
+          },
+          "bytes": 71488
+        }
+      },
+      "family": "TLM",
+      "drawing": "E-TLM-3",
+      "occurrence": 3,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 14
+    },
+    "R-TLM-filled": {
+      "character": "R",
+      "label": "R-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/R-TLM-filled.png",
+          "width": 103,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 99,
+            "height": 128
+          },
+          "bytes": 5899
+        },
+        "256": {
+          "file": "256/R-TLM-filled.png",
+          "width": 206,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 198,
+            "height": 256
+          },
+          "bytes": 15469
+        },
+        "1024": {
+          "file": "1024/R-TLM-filled.png",
+          "width": 822,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 790,
+            "height": 1024
+          },
+          "bytes": 94171
+        }
+      },
+      "family": "TLM",
+      "drawing": "R-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 15
+    },
+    "R-TLM-outline": {
+      "character": "R",
+      "label": "R-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/R-TLM-outline.png",
+          "width": 104,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 100,
+            "height": 128
+          },
+          "bytes": 7176
+        },
+        "256": {
+          "file": "256/R-TLM-outline.png",
+          "width": 208,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 200,
+            "height": 256
+          },
+          "bytes": 19158
+        },
+        "1024": {
+          "file": "1024/R-TLM-outline.png",
+          "width": 830,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 798,
+            "height": 1024
+          },
+          "bytes": 108274
+        }
+      },
+      "family": "TLM",
+      "drawing": "R-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 15
+    },
+    "S-TLM-filled": {
+      "character": "S",
+      "label": "S-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/S-TLM-filled.png",
+          "width": 88,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 84,
+            "height": 128
+          },
+          "bytes": 5901
+        },
+        "256": {
+          "file": "256/S-TLM-filled.png",
+          "width": 177,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 169,
+            "height": 256
+          },
+          "bytes": 15317
+        },
+        "1024": {
+          "file": "1024/S-TLM-filled.png",
+          "width": 706,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 674,
+            "height": 1024
+          },
+          "bytes": 88267
+        }
+      },
+      "family": "TLM",
+      "drawing": "S-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 16
+    },
+    "S-TLM-outline": {
+      "character": "S",
+      "label": "S-TLM-outline",
+      "category": "letter",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/S-TLM-outline.png",
+          "width": 90,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 86,
+            "height": 128
+          },
+          "bytes": 6220
+        },
+        "256": {
+          "file": "256/S-TLM-outline.png",
+          "width": 180,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 172,
+            "height": 256
+          },
+          "bytes": 16544
+        },
+        "1024": {
+          "file": "1024/S-TLM-outline.png",
+          "width": 721,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 689,
+            "height": 1024
+          },
+          "bytes": 92116
+        }
+      },
+      "family": "TLM",
+      "drawing": "S-TLM",
+      "occurrence": 1,
+      "source": "reference/alphabet036.jpg",
+      "sourceOrder": 16
+    },
+    "F-TLM-filled": {
+      "character": "F",
+      "label": "F-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/F-TLM-filled.png",
+          "width": 93,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 89,
+            "height": 128
+          },
+          "bytes": 4541
+        },
+        "256": {
+          "file": "256/F-TLM-filled.png",
+          "width": 186,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 178,
+            "height": 256
+          },
+          "bytes": 10780
+        },
+        "1024": {
+          "file": "1024/F-TLM-filled.png",
+          "width": 743,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 711,
+            "height": 1024
+          },
+          "bytes": 51050
+        }
+      },
+      "family": "TLM",
+      "drawing": "F-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "D-TLM-filled": {
+      "character": "D",
+      "label": "D-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/D-TLM-filled.png",
+          "width": 113,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 109,
+            "height": 128
+          },
+          "bytes": 5177
+        },
+        "256": {
+          "file": "256/D-TLM-filled.png",
+          "width": 227,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 219,
+            "height": 256
+          },
+          "bytes": 12262
+        },
+        "1024": {
+          "file": "1024/D-TLM-filled.png",
+          "width": 906,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 874,
+            "height": 1024
+          },
+          "bytes": 57236
+        }
+      },
+      "family": "TLM",
+      "drawing": "D-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "O-TLM-filled": {
+      "character": "O",
+      "label": "O-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/O-TLM-filled.png",
+          "width": 130,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 126,
+            "height": 128
+          },
+          "bytes": 5328
+        },
+        "256": {
+          "file": "256/O-TLM-filled.png",
+          "width": 261,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 253,
+            "height": 256
+          },
+          "bytes": 12663
+        },
+        "1024": {
+          "file": "1024/O-TLM-filled.png",
+          "width": 1042,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 1010,
+            "height": 1024
+          },
+          "bytes": 67388
+        }
+      },
+      "family": "TLM",
+      "drawing": "O-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "A-TLM-filled": {
+      "character": "A",
+      "label": "A-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/A-TLM-filled.png",
+          "width": 120,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 116,
+            "height": 128
+          },
+          "bytes": 5117
+        },
+        "256": {
+          "file": "256/A-TLM-filled.png",
+          "width": 239,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 231,
+            "height": 256
+          },
+          "bytes": 12666
+        },
+        "1024": {
+          "file": "1024/A-TLM-filled.png",
+          "width": 957,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 925,
+            "height": 1024
+          },
+          "bytes": 68463
+        }
+      },
+      "family": "TLM",
+      "drawing": "A-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "C-TLM-filled": {
+      "character": "C",
+      "label": "C-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/C-TLM-filled.png",
+          "width": 114,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 110,
+            "height": 128
+          },
+          "bytes": 5378
+        },
+        "256": {
+          "file": "256/C-TLM-filled.png",
+          "width": 228,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 220,
+            "height": 256
+          },
+          "bytes": 13347
+        },
+        "1024": {
+          "file": "1024/C-TLM-filled.png",
+          "width": 913,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 881,
+            "height": 1024
+          },
+          "bytes": 70724
+        }
+      },
+      "family": "TLM",
+      "drawing": "C-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "8-TLM-filled": {
+      "character": "8",
+      "label": "8-TLM-filled",
+      "category": "digit",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/8-TLM-filled.png",
+          "width": 93,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 89,
+            "height": 128
+          },
+          "bytes": 4855
+        },
+        "256": {
+          "file": "256/8-TLM-filled.png",
+          "width": 185,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 177,
+            "height": 256
+          },
+          "bytes": 11333
+        },
+        "1024": {
+          "file": "1024/8-TLM-filled.png",
+          "width": 741,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 709,
+            "height": 1024
+          },
+          "bytes": 59982
+        }
+      },
+      "family": "TLM",
+      "drawing": "8-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "P-TLM-filled": {
+      "character": "P",
+      "label": "P-TLM-filled",
+      "category": "letter",
+      "style": "filled-front",
+      "variants": {
+        "128": {
+          "file": "128/P-TLM-filled.png",
+          "width": 106,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 102,
+            "height": 128
+          },
+          "bytes": 5385
+        },
+        "256": {
+          "file": "256/P-TLM-filled.png",
+          "width": 212,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 204,
+            "height": 256
+          },
+          "bytes": 13964
+        },
+        "1024": {
+          "file": "1024/P-TLM-filled.png",
+          "width": 847,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 815,
+            "height": 1024
+          },
+          "bytes": 80489
+        }
+      },
+      "family": "TLM",
+      "drawing": "P-TLM",
+      "origin": "style-extension",
+      "sourceReferences": [
+        "reference/title/E-TLM-2-filled.png",
+        "reference/title/R-TLM-filled.png",
+        "reference/title/G-TLM-filled.png"
+      ]
+    },
+    "skull": {
+      "character": null,
+      "label": "skull",
+      "category": "symbol",
+      "style": "outline",
+      "variants": {
+        "128": {
+          "file": "128/skull.png",
+          "width": 103,
+          "height": 132,
+          "bounds": {
+            "left": 2,
+            "top": 2,
+            "width": 99,
+            "height": 128
+          },
+          "bytes": 9265
+        },
+        "256": {
+          "file": "256/skull.png",
+          "width": 206,
+          "height": 264,
+          "bounds": {
+            "left": 4,
+            "top": 4,
+            "width": 198,
+            "height": 256
+          },
+          "bytes": 26498
+        },
+        "1024": {
+          "file": "1024/skull.png",
+          "width": 824,
+          "height": 1056,
+          "bounds": {
+            "left": 16,
+            "top": 16,
+            "width": 792,
+            "height": 1024
+          },
+          "bytes": 179671
+        }
+      },
+      "source": "reference/alphabet036.jpg"
+    }
+  }
+}

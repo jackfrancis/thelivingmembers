@@ -1,0 +1,15 @@
+{
+  "file": "the-living-members-animated-1.gif",
+  "width": 1280,
+  "height": 520,
+  "durationSeconds": 12,
+  "fps": 20,
+  "encodedFrames": 201,
+  "loop": "infinite",
+  "background": "#ffffff",
+  "particles": 1868,
+  "bytes": 11746129,
+  "loopBoundary": "identical state and continuous velocity at 0 and 12 seconds",
+  "source": "reference/the-living-members.png",
+  "boneSource": "reference/femur-generated.png"
+}

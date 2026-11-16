@@ -1,0 +1,7 @@
+{
+  "tool": "built-in imagegen",
+  "editTarget": "../TLM1-front-framed/frame-generated.png",
+  "selectedOutput": "frame-generated.png",
+  "prompt": "generation-prompt.txt",
+  "photoCompositing": "Original source photograph resized proportionally and inset mechanically; no AI-generated photograph pixels."
+}

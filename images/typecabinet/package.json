@@ -1,0 +1,12 @@
+{
+  "name": "thelivingmembers-typecabinet",
+  "private": true,
+  "version": "1.2.0",
+  "description": "Rebuild transparent hand-drawn alphabet, digits, symbols, and dimensional TLM letters",
+  "scripts": {
+    "build": "node scripts/build.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

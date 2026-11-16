@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="The Living Members is a rock and roll band from Portland, Oregon.">
+  <meta name="theme-color" content="#f2f7ff">
+  <title>The Living Members</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { color-scheme: light; }
+    body { margin: 0; background: #f2f7ff url("images/TLM1-sky-tile.webp") repeat; background-size: 256px 256px; color: #111; }
+    .page { width: min(100% - 40px, 1120px); margin-inline: auto; padding-block: clamp(24px, 3.5vw, 50px); }
+    h1 { margin: 0; }
+    .logo { display: block; width: min(86%, 840px); margin-inline: auto; }
+    .logo img { display: block; width: 100%; height: auto; }
+    .cover { margin: clamp(38px, 5vw, 72px) 0 0; }
+    .cover img { display: block; width: 100%; height: auto; }
+    .introduction { max-width: 1020px; margin: clamp(38px, 5vw, 72px) auto 0; text-align: center; }
+    .lettering { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; column-gap: 0.65em; row-gap: 0.8em; font-size: clamp(21px, 2.15vw, 29px); }
+    .word { display: inline-flex; align-items: flex-end; gap: 0.015em; flex: none; }
+    .word img { display: block; height: 1.03125em; width: auto; }
+    .band-name, .tlm-filled { font-size: 1.28em; }
+    .paragraph-start { display: inline-flex; align-items: baseline; gap: 0.55em; flex: none; }
+    .paragraph-marker { display: block; height: 2.2em; width: auto; margin-inline: 0.2em; transform: translateY(20%); }
+    .closing-symbols { display: flex; justify-content: center; align-items: center; gap: clamp(24px, 5vw, 56px); margin: clamp(38px, 5vw, 72px) 0 0; }
+    .closing-symbols img { display: block; height: clamp(72px, 9vw, 104px); width: auto; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+    @media (max-width: 480px) {
+      .page { width: calc(100% - 28px); }
+      .logo { width: 94%; }
+      .lettering { column-gap: 0.55em; row-gap: 0.9em; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>
+      <span class="sr-only">The Living Members</span>
+      <picture class="logo" aria-hidden="true">
+        <source media="(prefers-reduced-motion: reduce)" srcset="images/the-living-members-still.png">
+        <img src="images/the-living-members-animated-1.gif" width="1280" height="355" alt="" fetchpriority="high">
+      </picture>
+    </h1>
+    <figure class="cover">
+      <img src="images/TLM1-front-framed-plywood-glass-1280.jpg"
+        srcset="images/TLM1-front-framed-plywood-glass-768.jpg 768w, images/TLM1-front-framed-plywood-glass-1280.jpg 1280w, images/TLM1-front-framed-plywood-glass.jpg 1920w"
+        sizes="(max-width: 480px) calc(100vw - 28px), (max-width: 1160px) calc(100vw - 40px), 1120px"
+        width="1920" height="1480" decoding="async" fetchpriority="high"
+        alt="A fire-damaged motorhome, displayed behind glass in an old plywood frame.">
+    </figure>
+    <p class="introduction">
+      <span class="sr-only">The Living Members is a rock and roll band from Portland Oregon.</span>
+      <span class="lettering" aria-hidden="true">
+        <span class="paragraph-start"><img class="paragraph-marker" src="images/typecabinet/256/skull.png" width="206" height="264" alt="" decoding="async"><span class="word band-name"><img src="images/typecabinet/128/T-TLM-outline.png" width="101" height="132" alt="" decoding="async"><img src="images/typecabinet/128/H-TLM-outline.png" width="80" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E-TLM-1-outline.png" width="86" height="132" alt="" decoding="async"></span></span>
+        <span class="word band-name"><img src="images/typecabinet/128/L-TLM-outline.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/I-TLM-1-outline.png" width="52" height="132" alt="" decoding="async"><img src="images/typecabinet/128/V-TLM-outline.png" width="130" height="132" alt="" decoding="async"><img src="images/typecabinet/128/I-TLM-2-outline.png" width="54" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N-TLM-outline.png" width="87" height="132" alt="" decoding="async"><img src="images/typecabinet/128/G-TLM-outline.png" width="125" height="132" alt="" decoding="async"></span>
+        <span class="word band-name"><img src="images/typecabinet/128/M-TLM-1-outline.png" width="124" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E-TLM-2-outline.png" width="107" height="132" alt="" decoding="async"><img src="images/typecabinet/128/M-TLM-2-outline.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/B-TLM-outline.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E-TLM-3-outline.png" width="86" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R-TLM-outline.png" width="104" height="132" alt="" decoding="async"><img src="images/typecabinet/128/S-TLM-outline.png" width="90" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/I.png" width="55" height="132" alt="" decoding="async"><img src="images/typecabinet/128/S.png" width="100" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/C.png" width="119" height="132" alt="" decoding="async"><img src="images/typecabinet/128/K.png" width="81" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/F.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/M.png" width="96" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/P.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/T.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"></span>
+        <span class="word "><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/G.png" width="99" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/period.png" width="30" height="132" alt="" decoding="async"></span>
+      </span>
+    </p>
+    <p class="introduction">
+      <span class="sr-only">Come grab our debut vinyl LP at Arbor Beer Lodge on Saturday December 19th. 8 p.m. five dollar cover.</span>
+      <span class="lettering" aria-hidden="true">
+        <span class="paragraph-start"><img class="paragraph-marker" src="images/typecabinet/256/skull.png" width="206" height="264" alt="" decoding="async"><span class="word"><img src="images/typecabinet/128/C.png" width="119" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/M.png" width="96" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"></span></span>
+        <span class="word"><img src="images/typecabinet/128/G.png" width="99" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/U.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/U.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/T.png" width="112" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/V.png" width="115" height="132" alt="" decoding="async"><img src="images/typecabinet/128/I.png" width="55" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/Y.png" width="120" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"><img src="images/typecabinet/128/P.png" width="88" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/T.png" width="112" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/L.png" width="106" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/G.png" width="99" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/O.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/N.png" width="105" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/S.png" width="100" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/T.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/U.png" width="105" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A.png" width="88" height="132" alt="" decoding="async"><img src="images/typecabinet/128/Y.png" width="120" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/D.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/C.png" width="119" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/M.png" width="96" height="132" alt="" decoding="async"><img src="images/typecabinet/128/B.png" width="74" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R.png" width="98" height="132" alt="" decoding="async"></span>
+        <span class="word"><img src="images/typecabinet/128/1.png" width="95" height="132" alt="" decoding="async"><img src="images/typecabinet/128/9.png" width="71" height="132" alt="" decoding="async"><img src="images/typecabinet/128/T.png" width="112" height="132" alt="" decoding="async"><img src="images/typecabinet/128/H.png" width="90" height="132" alt="" decoding="async"><img src="images/typecabinet/128/period.png" width="30" height="132" alt="" decoding="async"></span>
+        <span class="word tlm-filled"><img src="images/typecabinet/128/8-TLM-filled.png" width="93" height="132" alt="" decoding="async"></span>
+        <span class="word tlm-filled"><img src="images/typecabinet/128/P-TLM-filled.png" width="106" height="132" alt="" decoding="async"><img src="images/typecabinet/128/period.png" width="30" height="132" alt="" decoding="async"><img src="images/typecabinet/128/M-TLM-1-filled.png" width="129" height="132" alt="" decoding="async"><img src="images/typecabinet/128/period.png" width="30" height="132" alt="" decoding="async"></span>
+        <span class="word tlm-filled"><img src="images/typecabinet/128/F-TLM-filled.png" width="93" height="132" alt="" decoding="async"><img src="images/typecabinet/128/I-TLM-1-filled.png" width="52" height="132" alt="" decoding="async"><img src="images/typecabinet/128/V-TLM-filled.png" width="134" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E-TLM-1-filled.png" width="86" height="132" alt="" decoding="async"></span>
+        <span class="word tlm-filled"><img src="images/typecabinet/128/D-TLM-filled.png" width="113" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O-TLM-filled.png" width="130" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L-TLM-filled.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/L-TLM-filled.png" width="109" height="132" alt="" decoding="async"><img src="images/typecabinet/128/A-TLM-filled.png" width="120" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R-TLM-filled.png" width="103" height="132" alt="" decoding="async"></span>
+        <span class="word tlm-filled"><img src="images/typecabinet/128/C-TLM-filled.png" width="114" height="132" alt="" decoding="async"><img src="images/typecabinet/128/O-TLM-filled.png" width="130" height="132" alt="" decoding="async"><img src="images/typecabinet/128/V-TLM-filled.png" width="134" height="132" alt="" decoding="async"><img src="images/typecabinet/128/E-TLM-1-filled.png" width="86" height="132" alt="" decoding="async"><img src="images/typecabinet/128/R-TLM-filled.png" width="103" height="132" alt="" decoding="async"><img src="images/typecabinet/128/period.png" width="30" height="132" alt="" decoding="async"></span>
+      </span>
+    </p>
+    <div class="closing-symbols" aria-hidden="true">
+      <img src="images/typecabinet/256/guitar.png" width="88" height="264" alt="" decoding="async">
+      <img src="images/typecabinet/256/ice-cream.png" width="162" height="264" alt="" decoding="async">
+      <img src="images/typecabinet/256/heart.png" width="221" height="264" alt="" decoding="async">
+    </div>
+  </main>
+</body>
+</html>

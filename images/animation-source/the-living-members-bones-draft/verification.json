@@ -1,0 +1,9 @@
+{
+  "positiveFrameDelays": true,
+  "totalMilliseconds": 12000,
+  "infiniteLoop": true,
+  "seamMeanPixelDifference": 8.318894230769232,
+  "ordinaryFirstStepMeanPixelDifference": 8.271707231570513,
+  "heldBlackLetterShapeIoU": 0.9962130992340132,
+  "longestHoldMilliseconds": 2000
+}

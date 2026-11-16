@@ -1,0 +1,113 @@
+[
+  {
+    "crop": "title-T",
+    "letter": "T",
+    "occurrence": 1,
+    "base": "T-TLM"
+  },
+  {
+    "crop": "title-H",
+    "letter": "H",
+    "occurrence": 1,
+    "base": "H-TLM",
+    "notes": "Keep the long narrow left side plane and the small dimensional side planes inside both H notches."
+  },
+  {
+    "crop": "title-E-1",
+    "letter": "E",
+    "occurrence": 1,
+    "base": "E-TLM-1",
+    "notes": "Keep the original narrow, slightly curved upright E proportions, with all three unequal bars."
+  },
+  {
+    "crop": "title-L",
+    "letter": "L",
+    "occurrence": 1,
+    "base": "L-TLM",
+    "notes": "Retain the long narrow upright, broad short bottom foot, top plane, and thin left extruded side."
+  },
+  {
+    "crop": "title-I-1",
+    "letter": "I",
+    "occurrence": 1,
+    "base": "I-TLM-1",
+    "notes": "This I is a plain thick slightly irregular vertical pillar. Do not add any horizontal serifs or crossbars."
+  },
+  {
+    "crop": "title-V",
+    "letter": "V",
+    "occurrence": 1,
+    "base": "V-TLM",
+    "notes": "Keep the wide irregular V and its short flat bottom, with the top end planes and the narrow left-side depth."
+  },
+  {
+    "crop": "title-I-2",
+    "letter": "I",
+    "occurrence": 2,
+    "base": "I-TLM-2",
+    "notes": "This I is the second plain vertical pillar; preserve its own slightly tapered/slanted outline. Do not add horizontal serifs. Omit the small accidental stray tick sticking out of its lower left."
+  },
+  {
+    "crop": "title-N",
+    "letter": "N",
+    "occurrence": 1,
+    "base": "N-TLM",
+    "notes": "Keep the tall crooked N, its two uneven pillars and diagonal connecting stroke. Retain the visible top and inner side planes. Remove faint abandoned construction lines outside the final contour."
+  },
+  {
+    "crop": "title-G",
+    "letter": "G",
+    "occurrence": 1,
+    "base": "G-TLM",
+    "notes": "Preserve the round asymmetric G and its short inward crossbar. Keep its large interior opening transparent. Retain the top/left extruded planes and small end plane at the upper-right terminal."
+  },
+  {
+    "crop": "title-M-1",
+    "letter": "M",
+    "occurrence": 1,
+    "base": "M-TLM-1",
+    "notes": "Preserve the original wide M with its deeply descending upper valley and pointed inner opening. Retain the left and inner dimensional side planes. Remove faint crossing construction lines outside the intended contour."
+  },
+  {
+    "crop": "title-E-2",
+    "letter": "E",
+    "occurrence": 2,
+    "base": "E-TLM-2",
+    "notes": "Preserve this especially broad E, its three unequal long bars and irregular outline; do not narrow it to match other E drawings."
+  },
+  {
+    "crop": "title-M-2",
+    "letter": "M",
+    "occurrence": 2,
+    "base": "M-TLM-2",
+    "notes": "Preserve this upright broad uneven M and the original deep V-shaped upper valley. Retain all intended side planes, remove only unrelated faint construction lines."
+  },
+  {
+    "crop": "title-B",
+    "letter": "B",
+    "occurrence": 1,
+    "base": "B-TLM",
+    "notes": "Preserve the two unequal B bowls and both transparent counters. Keep the right-side extruded curved rim with its hatching."
+  },
+  {
+    "crop": "title-E-3",
+    "letter": "E",
+    "occurrence": 3,
+    "base": "E-TLM-3",
+    "notes": "Preserve this small narrow E's own uneven proportions and three bars, with the top and left depth planes."
+  },
+  {
+    "crop": "title-R",
+    "letter": "R",
+    "occurrence": 1,
+    "base": "R-TLM",
+    "notes": "Extract only the R. Preserve its small counter as transparency, crooked stem, uneven bowl and diagonal leg. Keep its top/left dimensional side. Omit any neighboring letter fragment."
+  },
+  {
+    "crop": "title-S",
+    "letter": "S",
+    "occurrence": 1,
+    "base": "S-TLM",
+    "notes": "Extract only this small tall narrow S with its uneven winding curves and thin top/left side planes. Omit any neighboring letter fragment."
+  }
+]

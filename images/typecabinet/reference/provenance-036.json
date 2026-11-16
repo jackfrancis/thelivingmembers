@@ -1,0 +1,142 @@
+{
+  "tool": "Built-in imagegen",
+  "source": "alphabet036.jpg",
+  "cropGridWidth": 2720,
+  "cropsScaleFromGrid": 3,
+  "editTargetMaxHeight": 1400,
+  "transparency": true,
+  "selectedOutputs": {
+    "T-TLM-filled": {
+      "file": "title/T-TLM-filled.png",
+      "generatedOriginal": "exec-6efa1ea6-06c1-4412-9493-a75829aa7d7b.png"
+    },
+    "T-TLM-outline": {
+      "file": "title/T-TLM-outline.png",
+      "generatedOriginal": "exec-b64c2832-67f8-4ed2-ae0e-d542dfb6bfae.png"
+    },
+    "H-TLM-filled": {
+      "file": "title/H-TLM-filled.png",
+      "generatedOriginal": "exec-b180450c-26df-4452-81b7-25d0359f112f.png"
+    },
+    "H-TLM-outline": {
+      "file": "title/H-TLM-outline.png",
+      "generatedOriginal": "exec-4816959b-845b-4002-b4d6-b69746c55d21.png"
+    },
+    "E-TLM-1-filled": {
+      "file": "title/E-TLM-1-filled.png",
+      "generatedOriginal": "exec-29009faf-8f31-454d-9149-979c40dc62b2.png"
+    },
+    "E-TLM-1-outline": {
+      "file": "title/E-TLM-1-outline.png",
+      "generatedOriginal": "exec-8c1a8f12-9b2c-4157-84d2-b9401fe894ba.png"
+    },
+    "L-TLM-filled": {
+      "file": "title/L-TLM-filled.png",
+      "generatedOriginal": "exec-04ef63e4-fb55-4527-adaf-99e8aded04c4.png"
+    },
+    "L-TLM-outline": {
+      "file": "title/L-TLM-outline.png",
+      "generatedOriginal": "exec-3e8e4d27-b295-4f5c-86fe-ff1c27907a38.png"
+    },
+    "I-TLM-1-filled": {
+      "file": "title/I-TLM-1-filled.png",
+      "generatedOriginal": "exec-89adfee0-a77e-4bf8-b0d4-3219e4e16987.png"
+    },
+    "I-TLM-1-outline": {
+      "file": "title/I-TLM-1-outline.png",
+      "generatedOriginal": "exec-2ceced8c-1dfc-4389-bb05-da728c02c815.png"
+    },
+    "V-TLM-filled": {
+      "file": "title/V-TLM-filled.png",
+      "generatedOriginal": "exec-edb79877-b1d2-4a01-83ed-0d5d039db92c.png"
+    },
+    "V-TLM-outline": {
+      "file": "title/V-TLM-outline.png",
+      "generatedOriginal": "exec-5523102a-bfa2-4b9a-a674-116ed5c33811.png"
+    },
+    "I-TLM-2-filled": {
+      "file": "title/I-TLM-2-filled.png",
+      "generatedOriginal": "exec-c20a9674-f275-40c4-82d3-7badb58a30fb.png"
+    },
+    "I-TLM-2-outline": {
+      "file": "title/I-TLM-2-outline.png",
+      "generatedOriginal": "exec-e954714a-4662-4e0b-af60-95918e6d1d48.png"
+    },
+    "N-TLM-filled": {
+      "file": "title/N-TLM-filled.png",
+      "generatedOriginal": "exec-cf3eb43a-e937-4c2c-9118-160f6e0a6661.png"
+    },
+    "N-TLM-outline": {
+      "file": "title/N-TLM-outline.png",
+      "generatedOriginal": "exec-f12549fd-6fe3-4a17-8cdb-d71c98181859.png"
+    },
+    "G-TLM-filled": {
+      "file": "title/G-TLM-filled.png",
+      "generatedOriginal": "exec-6d3084cc-ced2-427a-a46f-71112da13f5e.png"
+    },
+    "G-TLM-outline": {
+      "file": "title/G-TLM-outline.png",
+      "generatedOriginal": "exec-c26d3ad7-e76c-4d20-9c25-62b76d74f518.png"
+    },
+    "M-TLM-1-filled": {
+      "file": "title/M-TLM-1-filled.png",
+      "generatedOriginal": "exec-bacf9869-56ba-48ed-a6c5-188618914218.png"
+    },
+    "M-TLM-1-outline": {
+      "file": "title/M-TLM-1-outline.png",
+      "generatedOriginal": "exec-49d29ed5-594d-4b20-a585-6eb1981957e0.png"
+    },
+    "E-TLM-2-filled": {
+      "file": "title/E-TLM-2-filled.png",
+      "generatedOriginal": "exec-3cfbc24b-768b-4474-9e9a-e356d6551e27.png"
+    },
+    "E-TLM-2-outline": {
+      "file": "title/E-TLM-2-outline.png",
+      "generatedOriginal": "exec-a5cdfdd7-739c-4b17-916b-9a89ef2993bd.png"
+    },
+    "M-TLM-2-filled": {
+      "file": "title/M-TLM-2-filled.png",
+      "generatedOriginal": "exec-ba7bcb05-66db-4391-b172-98c80bc1da99.png"
+    },
+    "M-TLM-2-outline": {
+      "file": "title/M-TLM-2-outline.png",
+      "generatedOriginal": "exec-ea77e73a-8afa-439c-884c-a6f962de345b.png"
+    },
+    "B-TLM-filled": {
+      "file": "title/B-TLM-filled.png",
+      "generatedOriginal": "exec-58e91687-f62b-4050-8932-17f2a5f70129.png"
+    },
+    "B-TLM-outline": {
+      "file": "title/B-TLM-outline.png",
+      "generatedOriginal": "exec-d5a07530-118a-4ae4-9c06-b55238afe564.png"
+    },
+    "E-TLM-3-filled": {
+      "file": "title/E-TLM-3-filled.png",
+      "generatedOriginal": "exec-9521abb9-0f5e-4603-8db0-7a1e7360bdec.png"
+    },
+    "E-TLM-3-outline": {
+      "file": "title/E-TLM-3-outline.png",
+      "generatedOriginal": "exec-dedaf121-3b86-4d66-a346-d7ac9286af3d.png"
+    },
+    "R-TLM-filled": {
+      "file": "title/R-TLM-filled.png",
+      "generatedOriginal": "exec-fc3b7f9d-5b0e-4225-bc91-e6bd4b54305f.png"
+    },
+    "R-TLM-outline": {
+      "file": "title/R-TLM-outline.png",
+      "generatedOriginal": "exec-8105bed8-018d-47e1-9c8f-9a735cf17835.png"
+    },
+    "S-TLM-filled": {
+      "file": "title/S-TLM-filled.png",
+      "generatedOriginal": "exec-a915f03a-1320-4c88-9eab-30b5723b56e4.png"
+    },
+    "S-TLM-outline": {
+      "file": "title/S-TLM-outline.png",
+      "generatedOriginal": "exec-0daf3eab-329a-4caf-be6d-926902d7cff1.png"
+    },
+    "skull": {
+      "file": "outlined/skull.png",
+      "generatedOriginal": "exec-b86e2e08-f79b-41b7-81a7-46c0b084af6d.png"
+    }
+  }
+}

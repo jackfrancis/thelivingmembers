@@ -1,0 +1,9 @@
+{
+  "tool": "built-in imagegen",
+  "reflectionLayoutReference": "../../TLM1-front-framed-plywood-1280.jpg",
+  "frameSource": "../TLM1-front-framed-plywood/frame-generated.png",
+  "reflection": "glass-generated.png",
+  "edge": "glass-edge-generated.png",
+  "prompts": "generation-prompts.json",
+  "compositing": "Original photograph and approved plywood frame are assembled first. Generated optical layers are scaled down in strength and clipped to the photo interior."
+}

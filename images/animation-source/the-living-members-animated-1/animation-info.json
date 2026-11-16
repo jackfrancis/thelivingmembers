@@ -1,0 +1,67 @@
+{
+  "file": "the-living-members-animated-1.gif",
+  "width": 1280,
+  "height": 355,
+  "frames": 11,
+  "durationMs": 3950,
+  "loop": "infinite",
+  "background": "transparent",
+  "bytes": 142525,
+  "timeline": [
+    {
+      "phase": "still",
+      "pulse": 0,
+      "delay": 2500
+    },
+    {
+      "phase": "first hit",
+      "pulse": 1,
+      "delay": 50
+    },
+    {
+      "phase": "first hit",
+      "pulse": -0.8,
+      "delay": 50
+    },
+    {
+      "phase": "first hit",
+      "pulse": 0.48,
+      "delay": 50
+    },
+    {
+      "phase": "first hit",
+      "pulse": -0.2,
+      "delay": 50
+    },
+    {
+      "phase": "still",
+      "pulse": 0,
+      "delay": 1000
+    },
+    {
+      "phase": "second hit",
+      "pulse": 1.2,
+      "delay": 50
+    },
+    {
+      "phase": "second hit",
+      "pulse": -0.98,
+      "delay": 50
+    },
+    {
+      "phase": "second hit",
+      "pulse": 0.68,
+      "delay": 50
+    },
+    {
+      "phase": "second hit",
+      "pulse": -0.4,
+      "delay": 50
+    },
+    {
+      "phase": "second hit",
+      "pulse": 0.16,
+      "delay": 50
+    }
+  ]
+}

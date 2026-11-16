@@ -1,0 +1,7 @@
+{
+  "name": "thelivingmembers-front-frame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build.cjs"},
+  "devDependencies": {"sharp": "0.35.5"}
+}

@@ -1,0 +1,27 @@
+{
+  "file": "the-living-members-animated-1.gif",
+  "width": 1280,
+  "height": 355,
+  "frames": 8,
+  "frameDelayMs": 200,
+  "durationMs": 1600,
+  "loop": "infinite",
+  "background": "transparent",
+  "letters": 16,
+  "maximumTranslationPixels": {
+    "x": 1.1,
+    "y": 0.9
+  },
+  "maximumRotationDegrees": 0.38,
+  "bytes": 107315,
+  "opaquePixelCounts": [
+    101927,
+    101910,
+    101900,
+    101928,
+    101883,
+    101858,
+    101942,
+    101965
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-11-15",
+  "input": "White-background inspection copies of the previous 1024px masters; outputs restored to transparency.",
+  "prompts": {
+    "guitar": "Use case: precise-object-edit. Input image is the edit target, not inspiration. It is deliberately rough hand-drawn artwork. Perform one local erasure: erase the extra OUTERMOST loop attached to the LEFT of the main body. The loop bulges far left from the upper-left body junction and reconnects near the bottom-left. Keep the INNER left contour of the main body, tracing down from the neck through its left waist to the round bottom. Leave only that inner contour as the left body boundary. Everything else must be identical: uneven skinny tall body, rough line texture, curved headstock, six pegs, crooked strings, thin oval soundhole, narrow bridge, proportions and layout. Do NOT replace with a generic guitar, smooth into vectors, add frets, redraw, or symmetrize. Preserve exactly the supplied drawing apart from removing the extraneous loop. Output black strokes on true transparency instead of white.",
+    "flower": "Use case: precise-object-edit. Input image is the edit target, not inspiration. Erase ONLY the interior curved stroke in the bottommost petal: it starts at about (57% width, 63% height), curves downward-left, and ends at (43% width, 87% height). Leave that petal blank inside. Keep the entire outer outline and all other pixels of the flower unchanged. Preserve the six highly asymmetric petals exactly as supplied, the tilted oval center, the intentional gaps, the irregular rough black ink texture and varying thickness. No new lines, no petal veins, no extra petals, no vector smoothing, no redesign. Only remove the one extra interior curve in the lowest petal and change the white background to genuine transparency, including transparent spaces inside all petals."
+  }
+}

@@ -1,0 +1,17 @@
+/* --cap-height is the visible capital height; the canvas adds 3.125% padding. */
+.typecabinet {
+  --cap-height: 64px;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: calc(var(--cap-height) * 0.04);
+}
+.typecabinet img {
+  display: block;
+  height: calc(var(--cap-height) * 1.03125);
+  width: auto;
+  flex: none;
+}
+.typecabinet .space {
+  width: calc(var(--cap-height) * 0.35);
+  flex: none;
+}

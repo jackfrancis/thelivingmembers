@@ -1,0 +1,12 @@
+A sample
+
+A.png is the usable transparent PNG. A-preview.png shows that PNG over a checkerboard for inspection; the checkerboard is not part of A.png.
+
+Visible letter height: 1024 pixels.
+Canvas: 702 x 1056 pixels, including 16 transparent pixels above and below the letter.
+Color: pure black (#000000). Body: fully opaque. Background and central opening: fully transparent. Antialiased edge pixels provide smooth display.
+
+Method: built-in imagegen edit of a crop from alphabet035.jpg, followed by mechanical color/opacity normalization, proportional resizing and padding. This is an AI-assisted interpretation of the pencil contour, not an exact pixel trace.
+
+Exact imagegen prompt:
+Use case: background-extraction / precise-object-edit. Edit target: the attached cropped hand-drawn capital A. Convert this exact outlined pencil letter into a completely filled pure black (#000000), fully opaque silhouette on a genuinely transparent background. Faithfully TRACE its existing shape: preserve the unusually tall, narrow, leaning A, its flat gently uneven top, sloping left side, nearly vertical irregular right side, uneven feet, high crossbar, and small off-center teardrop/triangular inner counter. Do not substitute a font or redesign the letter. The enclosed counter in the center and the open notch between the legs must remain 100% transparent. Fill the interior of the body 100% opaque pure black, no texture, no paper, no gray, no pencil lines, no shadows. Close the small pencil gaps by following the intended contour. Remove stray pencil strokes but retain the hand-drawn silhouette's organic irregularities. Preserve aspect ratio. Include the whole A with a small transparent margin; no clipping. A single A only. Output transparent PNG.

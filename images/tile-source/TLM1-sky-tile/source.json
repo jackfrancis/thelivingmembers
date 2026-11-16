@@ -1,0 +1,23 @@
+{
+  "source": "../../TLM1-front.png",
+  "sourceDimensions": [
+    4800,
+    3600
+  ],
+  "crop": {
+    "left": 2200,
+    "top": 320,
+    "width": 384,
+    "height": 384
+  },
+  "outputDimensions": [
+    256,
+    256
+  ],
+  "processing": "Exact sky crop, proportionally downsampled. No generated texture or color adjustment.",
+  "webpQuality": 90,
+  "webpBytes": 15018,
+  "fallbackColor": "#f2f7ff",
+  "repeat": "repeat",
+  "backgroundSize": "256px 256px"
+}

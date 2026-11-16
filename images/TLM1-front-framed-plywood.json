@@ -1,0 +1,69 @@
+{
+  "source": "TLM1-front.png",
+  "sourceBytes": 31598860,
+  "sourceSha256": "0568930f00caf87e26ac321ee14aecbbad4590cabe3cf524aea7406246f4ee9d",
+  "photographPreservedBeforeCompression": true,
+  "master": {
+    "width": 1920,
+    "height": 1480,
+    "photoWidth": 1760,
+    "photoHeight": 1320,
+    "frameThickness": 80
+  },
+  "frameAddedRelativeToPhoto": {
+    "widthPercent": 9.090909090909092,
+    "heightPercent": 12.121212121212121
+  },
+  "preferredFormat": "jpg",
+  "alternateFormat": "webp",
+  "files": [
+    {
+      "file": "TLM1-front-framed-plywood.webp",
+      "format": "webp",
+      "width": 1920,
+      "height": 1480,
+      "bytes": 317066,
+      "quality": 82
+    },
+    {
+      "file": "TLM1-front-framed-plywood.jpg",
+      "format": "jpg",
+      "width": 1920,
+      "height": 1480,
+      "bytes": 349219,
+      "quality": 84
+    },
+    {
+      "file": "TLM1-front-framed-plywood-1280.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 987,
+      "bytes": 125750,
+      "quality": 82
+    },
+    {
+      "file": "TLM1-front-framed-plywood-1280.jpg",
+      "format": "jpg",
+      "width": 1280,
+      "height": 987,
+      "bytes": 157493,
+      "quality": 84
+    },
+    {
+      "file": "TLM1-front-framed-plywood-768.webp",
+      "format": "webp",
+      "width": 768,
+      "height": 592,
+      "bytes": 44590,
+      "quality": 82
+    },
+    {
+      "file": "TLM1-front-framed-plywood-768.jpg",
+      "format": "jpg",
+      "width": 768,
+      "height": 592,
+      "bytes": 57434,
+      "quality": 84
+    }
+  ]
+}
