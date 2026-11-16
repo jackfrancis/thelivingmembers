@@ -1,0 +1,9 @@
+# Public search crawling, including Googlebot and Bingbot.
+User-agent: *
+Allow: /
+
+# ChatGPT search discovery; separate from GPTBot's training controls.
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://thelivingmembers.com/sitemap.xml

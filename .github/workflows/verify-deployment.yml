@@ -1,0 +1,113 @@
+name: Verify site
+
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Daily at 16:23 UTC (08:23 PST / 09:23 PDT), away from the hour boundary.
+    - cron: '23 16 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-site-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    name: Verify proposed site
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Build public files
+        run: node scripts/build-site.cjs
+
+      - name: Verify local build
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from functools import partial
+          from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+          import subprocess
+          import sys
+          from threading import Thread
+
+          class QuietHandler(SimpleHTTPRequestHandler):
+              def log_message(self, *args):
+                  pass
+
+          handler = partial(QuietHandler, directory='dist')
+          with ThreadingHTTPServer(('127.0.0.1', 0), handler) as server:
+              thread = Thread(target=server.serve_forever, daemon=True)
+              thread.start()
+              try:
+                  result = subprocess.run([
+                      sys.executable, 'scripts/verify_deployment.py',
+                      '--base-url', f'http://127.0.0.1:{server.server_port}/',
+                      '--timeout', '10',
+                  ])
+              finally:
+                  server.shutdown()
+                  thread.join()
+          sys.exit(result.returncode)
+          PY
+
+  verify:
+    name: Verify production deployment
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out expected site content
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Verify production
+        id: verify
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 -u scripts/verify_deployment.py --timeout 10 2>&1 | tee "$RUNNER_TEMP/deployment-verification.log"
+
+      - name: Write verification summary
+        if: always()
+        env:
+          VERIFY_OUTCOME: ${{ steps.verify.outcome }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          log = Path(os.environ['RUNNER_TEMP']) / 'deployment-verification.log'
+          outcome = os.environ.get('VERIFY_OUTCOME', 'unknown')
+          lines = [f'## Production verification: {outcome}', '',
+                   'Target: https://thelivingmembers.com/', '',
+                   'Compares production with the checked-out revision. Undeployed changes can cause failures.', '',
+                   'CDN access from genuine crawler IPs, full Schema.org validation, and visual checks remain manual.', '']
+          if log.exists():
+              lines += ['<details><summary>Verification output</summary>', '',
+                        '```text', log.read_text(), '```', '', '</details>']
+          else:
+              lines += ['Verification did not produce a log. Check the setup steps above.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('\n'.join(lines) + '\n')
+          PY

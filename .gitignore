@@ -26,3 +26,6 @@ pnpm-debug.log*
 
 # Local tool caches
 .cache/
+
+# Generated Cloudflare Pages artifact
+/dist/
