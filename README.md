@@ -51,6 +51,7 @@ For a production-like preview, build first, then run `python3 -m http.server 876
 
 Automated coverage:
 
+- **Show calendars** follow each announcement link on the served homepage, require a `text/calendar` response, and compare the event UID and UTC start time with the corresponding record in `shows.json`.
 - **Published files:** successful responses for the homepage, robots, sitemap, favicon, and HTML/CSS/metadata image references; appropriate content types; no HTTPS downgrade; probes for exposed README, verifier source, and asset-project package files.
 - **Crawler access:** restrictive `X-Robots-Tag` and robots meta directives, robots.txt permissions for the homepage and images, and homepage responses using Googlebot, Bingbot, and OAI-SearchBot user agents.
 - **Metadata:** deployed title, canonical, Open Graph fields, and favicon link match local source; JSON-LD parses and matches local data; basic MusicGroup fields, sitemap XML, and favicon SVG are valid; referenced image URLs respond as images.

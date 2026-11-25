@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check this site's deployed files, crawlability, and metadata (Python stdlib only)."""
 import argparse
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -20,6 +21,7 @@ class Page(HTMLParser):
     def __init__(self, text):
         super().__init__()
         self.meta, self.links, self.assets, self.blocks = {}, {}, set(), []
+        self.calendar_links = []
         self.title = ''
         self.in_title = self.in_json = False
         self.feed(text)
@@ -33,6 +35,8 @@ class Page(HTMLParser):
             self.blocks.append('')
         if tag == 'meta': self.meta[a.get('property', a.get('name', '')).lower()] = a.get('content', '')
         if tag == 'link': self.links[a.get('rel', '')] = a.get('href', '')
+        if tag == 'a' and 'calendar-link' in (a.get('class') or '').split():
+            self.calendar_links.append(a.get('href') or '')
         if tag in ('img', 'source'):
             if a.get('src'): self.assets.add(a['src'])
             for entry in a.get('srcset', '').split(','):
@@ -49,6 +53,30 @@ class Page(HTMLParser):
 
 def blocked(value):
     return bool(re.search(r'\b(noindex|none|nosnippet)\b|max-snippet\s*:\s*0\b', value, re.I))
+
+
+def event_fields(body):
+    # Unfold before decoding because line folding is measured in bytes.
+    lines = re.sub(rb'\r?\n[ \t]', b'', body).decode('utf-8-sig').splitlines()
+    if not lines or lines[0].upper() != 'BEGIN:VCALENDAR' or lines[-1].upper() != 'END:VCALENDAR':
+        raise ValueError('expected a VCALENDAR document')
+    components = []
+    events = []
+    for line in lines:
+        key, _, value = line.partition(':')
+        name = key.split(';', 1)[0].upper()
+        if name == 'BEGIN':
+            components.append(value.upper())
+            if components == ['VCALENDAR', 'VEVENT']:
+                events.append({'UID': [], 'DTSTART': []})
+        elif name == 'END':
+            if not components or components.pop() != value.upper():
+                raise ValueError('mismatched calendar component')
+        elif components == ['VCALENDAR', 'VEVENT'] and name in ('UID', 'DTSTART'):
+            events[-1][name].append(value)
+    if components or len(events) != 1:
+        raise ValueError('expected one complete VEVENT')
+    return events[0]
 
 
 class Audit:
@@ -81,6 +109,37 @@ class Audit:
                 self.check(result[3].startswith('https:'), f'{url}: stays on HTTPS')
         return result
 
+    def check_calendars(self, page, page_url, shows):
+        self.check(len(page.calendar_links) == len(shows),
+                   f'homepage calendar links: expected {len(shows)}, found {len(page.calendar_links)}')
+        # The build renders each announcement in shows.json order. Follow its actual href.
+        for show, href in zip(shows, page.calendar_links):
+            show_id = show['id']
+            url = urljoin(page_url, href)
+            if not self.check(bool(href.strip()) and urlsplit(url)[:2] == urlsplit(page_url)[:2],
+                              f'{show_id}: announcement links to a calendar on the site ({href!r})'):
+                continue
+            result = self.get(url)
+            if not result or result[0] != 200:
+                continue
+            mime = result[1].get_content_type()
+            if not self.check(mime == 'text/calendar', f'{show_id}: expected text/calendar, got {mime}'):
+                continue
+            try:
+                fields = event_fields(result[2])
+                start = datetime.fromisoformat(show['startsAt'].replace('Z', '+00:00'))
+                if start.tzinfo is None:
+                    raise ValueError('startsAt in shows.json needs a UTC offset')
+            except ValueError as e:
+                self.check(False, f'{show_id}: {e}')
+                continue
+            expected = {
+                'UID': f'{show_id}@thelivingmembers.com',
+                'DTSTART': start.astimezone(timezone.utc).strftime('%Y%m%dT%H%M%SZ'),
+            }
+            for name, value in expected.items():
+                self.check(fields[name] == [value], f'{show_id}: expected {name} {value}, got {fields[name]}')
+
     def run(self):
         expected = Page((ROOT / 'index.html').read_text())
         canonical = expected.links.get('canonical')
@@ -89,6 +148,7 @@ class Audit:
         if not response or response[0] != 200: return
         self.check(response[1].get_content_type() == 'text/html', 'homepage is HTML')
         page = Page(response[2].decode('utf-8', errors='replace'))
+        self.check_calendars(page, response[3], json.loads((ROOT / 'shows.json').read_text()))
         self.check(page.title == expected.title and bool(page.title.strip()), 'deployed title matches local title')
         self.check(page.links.get('canonical') == canonical, 'deployed canonical matches local canonical')
         for key in ('description', 'og:type', 'og:title', 'og:description', 'og:url', 'og:image', 'og:image:type', 'og:image:width', 'og:image:height', 'og:image:alt'):
