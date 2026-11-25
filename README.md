@@ -23,9 +23,11 @@ Deployment rollout and verification status are tracked in [GitHub issues](https:
 node scripts/build-site.cjs
 ```
 
-This replaces the generated `dist/` directory with the homepage, favicon, robots file, sitemap, and images referenced by the HTML, inline CSS, or JSON-LD. Repository documentation and asset-source projects are excluded. No package installation is required.
+Edit `shows.json` to update the show announcements. Each record has a venue, a local start time with its UTC offset, a lead-in, and the admission wording. Keep the show's `id` when rescheduling so its calendar link and event ID stay the same.
 
-Configure Pages with build command `node scripts/build-site.cjs`, output directory `dist`, and production branch `main`. The currently deployed inline command must be replaced when this script reaches `main`; it does not include the new robots file or favicon. Pushing a feature branch does not update production.
+The build renders the lettering, screen-reader text, and a downloadable calendar event for each show in file order. Open `dist/index.html` to preview the result. The build replaces `dist/` with the public pages, calendars, favicon, robots file, sitemap, and referenced images. It runs without package installation.
+
+Configure Pages with build command `node scripts/build-site.cjs`, output directory `dist`, and production branch `main`.
 
 ## Running deployment verification
 

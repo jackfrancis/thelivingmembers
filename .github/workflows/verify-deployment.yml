@@ -34,6 +34,9 @@ jobs:
       - name: Build public files
         run: node scripts/build-site.cjs
 
+      - name: Verify generated show announcements and calendars
+        run: node --test scripts/test-shows.cjs
+
       - name: Verify local build
         shell: bash
         run: |
