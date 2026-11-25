@@ -13,7 +13,12 @@ const homepage = template.replace(marker, () => shows.html);
 const html = homepage + '\n' + fs.readFileSync(path.join(root, '404.html'), 'utf8');
 // Covers the image URLs in HTML attributes, srcsets, inline CSS, and JSON-LD.
 const images = html.match(/images\/[A-Za-z0-9/_.-]+\.(?:png|webp|jpe?g|gif|svg)\b/g) || [];
-const files = new Set(['404.html', 'favicon.svg', 'robots.txt', 'sitemap.xml', ...images]);
+const files = new Set([
+  '404.html', 'favicon.svg', 'robots.txt', 'sitemap.xml',
+  'images/posters/2026-12-19-arbor-beer-lodge.pdf',
+  'images/posters/2026-12-19-arbor-beer-lodge.jpg',
+  ...images,
+]);
 
 // Validate inputs before replacing the generated directory.
 for (const file of files) {
