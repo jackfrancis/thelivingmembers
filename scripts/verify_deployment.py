@@ -146,16 +146,13 @@ class Audit:
             result = self.get('', agent=bot)
             if result:
                 self.check(result[2] == response[2], f'{bot}: homepage matches normal response (no detected challenge)')
+        missing = self.get('deployment-check/missing-page', required=False)
+        self.check(missing is not None and missing[0] == 404,
+                   'unknown nested URL returns HTTP 404')
         exclusions = ['README.md', 'scripts/verify_deployment.py', 'scripts/build-site.cjs'] + [p.relative_to(ROOT).as_posix() for p in ROOT.glob('images/**/package.json')]
         for path in exclusions:
             result = self.get(path, required=False)
-            # Pages can return index.html with status 200 for missing paths.
-            # Accept that exact fallback, but reject actual source or any other
-            # successful response whose contents we cannot explain.
-            fallback = (result is not None and result[0] == 200
-                        and result[1].get_content_type() == 'text/html'
-                        and result[2] == response[2])
-            self.check(result is not None and (result[0] in (403, 404, 410) or fallback),
+            self.check(result is not None and result[0] in (403, 404, 410),
                        f'{path}: source file not publicly served')
         print('MANUAL: CDN rules and access from genuine crawler IPs cannot be proven by user-agent probes.')
         print('MANUAL: Run Schema.org validation; visually review share-image quality and favicon. This checks metadata and responses, not full schema semantics or browser rendering.')

@@ -45,7 +45,7 @@ python3 scripts/verify_deployment.py --base-url http://127.0.0.1:8765/ --timeout
 
 A server exposing the entire checkout will intentionally fail the source-file exclusion checks. A preview should serve the same selected files as the production deployment. HTTP is accepted only for loopback previews; this does not verify production HTTPS.
 
-For a production-like preview, build first, then run `python3 -m http.server 8765 --bind 127.0.0.1 --directory dist` in a separate terminal. The verifier accepts either a denied/missing source-file response or Cloudflare Pages' exact homepage HTML fallback, but rejects actual source contents and unexplained successful responses.
+For a production-like preview, build first, then run `python3 -m http.server 8765 --bind 127.0.0.1 --directory dist` in a separate terminal. The verifier checks that a missing nested URL returns HTTP 404 and source files are unavailable. Pages serves the top-level `404.html` for missing paths. Python’s preview server uses its own error page, so visit `/404.html` locally to preview the artwork.
 
 Automated coverage:
 

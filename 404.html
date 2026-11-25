@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · The Living Members</title>
+  <meta name="robots" content="noindex">
+  <!-- Cloudflare serves this page at the missing URL. A file preview uses its own directory. -->
+  <base href="/">
+  <script>
+    if (location.protocol === 'file:') {
+      document.querySelector('base').href = new URL('.', location.href).href;
+    }
+  </script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    html {
+      background: #0a1738 url("images/TLM1-night-sky-tile.webp") repeat;
+      background-size: 256px 256px;
+      color: #f2f7ff;
+    }
+    body { margin: 0; }
+    main { width: min(1120px, calc(100% - 32px)); margin: clamp(20px, 5vw, 64px) auto; }
+    .cover { display: block; width: 100%; height: auto; }
+    .status { margin: clamp(38px, 5vw, 72px) 0 0; text-align: center; font-size: clamp(21px, 2.15vw, 29px); }
+    .status a { display: inline-flex; align-items: baseline; gap: .55em; text-decoration: none; }
+    .marker { width: auto; height: 2.2em; margin-inline: .2em; transform: translateY(20%); }
+    .digits { display: inline-flex; gap: .015em; }
+    .digits img { width: auto; height: 1.03125em; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="cover" src="images/TLM1-back-charred-1280.jpg"
+      srcset="images/TLM1-back-charred-768.jpg 768w, images/TLM1-back-charred-1280.jpg 1280w, images/TLM1-back-charred-1920.jpg 1920w"
+      sizes="(max-width: 1152px) calc(100vw - 32px), 1120px" width="1920" height="1480"
+      alt="The Living Members’ back-cover artwork in a charred plywood frame.">
+    <h1 class="status">
+      <a href="/" aria-label="404 · Page not found. Back to The Living Members homepage">
+        <img class="marker" src="images/typecabinet/256/skull-white.png" alt="">
+        <span class="digits">
+          <img src="images/typecabinet/128/4-white.png" alt="">
+          <img src="images/typecabinet/128/0-white.png" alt="">
+          <img src="images/typecabinet/128/4-white.png" alt="">
+        </span>
+      </a>
+    </h1>
+  </main>
+</body>
+</html>
