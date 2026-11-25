@@ -42,13 +42,26 @@
     .logo img { display: block; width: 100%; height: auto; }
     .cover { margin: clamp(38px, 5vw, 72px) 0 0; }
     .cover img { display: block; width: 100%; height: auto; }
-    .introduction { max-width: 1020px; margin: clamp(38px, 5vw, 72px) auto 0; text-align: center; }
+    .preorder {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) min(64%, 15rem) minmax(0, 1fr);
+      align-items: center;
+      gap: clamp(8px, 1.5vw, 20px);
+      padding-block: 1rem;
+    }
+    .preorder > img { justify-self: start; width: auto; max-width: 100%; height: clamp(30px, 6vw, 56px); object-fit: contain; }
+    .preorder > img:first-child { justify-self: end; }
+    .preorder a:focus-visible { outline: 3px solid #111; outline-offset: 3px; box-shadow: 0 0 0 3px #fff; }
+    .introduction { --marker-drop: 0.44em; max-width: 1020px; margin: clamp(38px, 5vw, 72px) auto 0; text-align: center; }
+    .cover + .introduction { margin-top: 0; }
+    /* Measure the gap to the visible skull, which sits below the top of its line. */
+    .cover + .introduction .lettering { margin-top: calc(-1 * var(--marker-drop)); }
     .lettering { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; column-gap: 0.65em; row-gap: 0.8em; font-size: clamp(21px, 2.15vw, 29px); }
     .word { display: inline-flex; align-items: flex-end; gap: 0.015em; flex: none; }
     .word img { display: block; height: 1.03125em; width: auto; }
     .band-name, .tlm-filled { font-size: 1.28em; }
     .paragraph-start { display: inline-flex; align-items: baseline; gap: 0.55em; flex: none; }
-    .paragraph-marker { display: block; height: 2.2em; width: auto; margin-inline: 0.2em; transform: translateY(20%); }
+    .paragraph-marker { display: block; height: 2.2em; width: auto; margin-inline: 0.2em; transform: translateY(var(--marker-drop)); }
     .closing-symbols { display: flex; justify-content: center; align-items: center; gap: clamp(24px, 5vw, 56px); margin: clamp(38px, 5vw, 72px) 0 0; }
     .closing-symbols img { display: block; height: clamp(72px, 9vw, 104px); width: auto; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
@@ -74,6 +87,13 @@
         sizes="(max-width: 480px) calc(100vw - 28px), (max-width: 1160px) calc(100vw - 40px), 1120px"
         width="1920" height="1480" decoding="async" fetchpriority="high"
         alt="A fire-damaged motorhome, displayed behind glass in an old plywood frame.">
+      <figcaption class="preorder" id="preorder">
+        <img src="images/typecabinet/128/eighth-note.png" width="93" height="132" alt="" decoding="async">
+        <a href="https://buy.stripe.com/4gM4gzemE2ePh2h1gJ0Fi00">
+          <img src="images/TLM1-preorder-shrinkwrap.webp" width="720" height="540" alt="Preorder The Living Members’ debut vinyl LP" decoding="async">
+        </a>
+        <img src="images/typecabinet/128/beamed-notes.png" width="166" height="132" alt="" decoding="async">
+      </figcaption>
     </figure>
     <p class="introduction">
       <span class="sr-only">The Living Members is a rock and roll band from Portland Oregon.</span>
