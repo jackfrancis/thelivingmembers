@@ -4,10 +4,11 @@ const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'dist');
-const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const pages = ['index.html', '404.html'];
+const html = pages.map(page => fs.readFileSync(path.join(root, page), 'utf8')).join('\n');
 // Covers the image URLs in HTML attributes, srcsets, inline CSS, and JSON-LD.
 const images = html.match(/images\/[A-Za-z0-9/_.-]+\.(?:png|webp|jpe?g|gif|svg)\b/g) || [];
-const files = new Set(['index.html', 'favicon.svg', 'robots.txt', 'sitemap.xml', ...images]);
+const files = new Set([...pages, 'favicon.svg', 'robots.txt', 'sitemap.xml', ...images]);
 
 // Validate inputs before replacing the generated directory.
 for (const file of files) {
